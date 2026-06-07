@@ -999,6 +999,1494 @@ const exams = [
       ),
     ],
   },
+  {
+    id: "saldirganlik-derin",
+    title: "Test 5: Saldırganlık Derinleşme",
+    subtitle: "Kuramları karıştıran, gelişim ve medya vakaları",
+    duration: 30,
+    questions: [
+      makeQuestion(
+        "Freud ve hidrolik model",
+        "Bir danışman, öğrencinin içindeki saldırgan enerjinin mutlaka bir çıkış bulacağını; spor, sanat veya üretken bir uğraşla dönüştürülmezse patlayacağını savunuyor. Bu yorum hangi yaklaşıma en yakındır?",
+        [
+          "Psikanalitik hidrolik model ve yüceltme",
+          "Sosyal sorumluluk normu",
+          "Eşit statülü temas",
+          "Kendini açma döngüsü",
+        ],
+        0,
+        "Freudcu hidrolik benzetmede saldırgan enerji birikir; yüceltme bu enerjinin toplumsal olarak kabul edilebilir yollara aktarılmasıdır."
+      ),
+      makeQuestion(
+        "Etoloji ve insan",
+        "Bir mahalledeki gençler, kendi sokaklarına başka grubun girmesini tehdit gibi görüp bölgeyi savunmaya çalışıyor. Bir araştırmacı bunu bölgesel savunma ve hakimiyet çerçevesinde yorumluyor. Hangi yaklaşım öne çıkar?",
+        [
+          "Etolojik yaklaşım",
+          "Denklik kuramı",
+          "Fazladan gerekçelendirme",
+          "Sosyal kolaylaştırma",
+        ],
+        0,
+        "Etoloji saldırganlığı bölge savunması, hakimiyet hiyerarşisi ve uyum sağlayıcı işlevlerle açıklar."
+      ),
+      makeQuestion(
+        "Sosyobiyoloji",
+        "Bir sunumda saldırganlığın sınırlı kaynaklara erişim, eş seçimi ve türün devamı açısından evrimsel işlevleri olduğu anlatılıyor. Bu açıklama hangi çerçevededir?",
+        [
+          "Sosyobiyolojik yaklaşım",
+          "Çoğulcu cehalet",
+          "Ayna görüntüsü algısı",
+          "Bağlanma çözülmesi",
+        ],
+        0,
+        "Sosyobiyoloji sosyal davranışların evrimsel işlevlerine, kaynak ve cinsel rekabet gibi süreçlere odaklanır."
+      ),
+      makeQuestion(
+        "Kışkırtıcı ipuçları",
+        "Trafikte korna sesi, sıcak hava ve alaycı bir el hareketi aynı anda gelen bir sürücü, normalden daha çabuk öfkeleniyor. Berkowitz çizgisinde en iyi yorum hangisidir?",
+        [
+          "Tatsız olaylar ve saldırgan ipuçları saldırgan eğilimi artırabilir.",
+          "Saldırganlık için mutlaka bilinçli plan gerekir.",
+          "Saldırgan davranış sadece çocuklukta öğrenilir.",
+          "Saldırganlık yalnızca yakın ilişkilerde görülür.",
+        ],
+        0,
+        "Berkowitz, yalnız engellenmenin değil, sıcaklık ve kışkırtma gibi tatsız uyaranların da saldırganlığı tetikleyebileceğini savunur."
+      ),
+      makeQuestion(
+        "Operant koşullanma",
+        "Bir çocuk kardeşine bağırdığında oyuncak ona veriliyor. Aile 'sussun yeter' diyerek her seferinde aynı sonucu yaratıyor. Zamanla bağırma artıyor. Bu hangi öğrenme sürecidir?",
+        [
+          "Saldırgan davranışın pekiştirilmesi",
+          "Salt maruz kalma",
+          "Bilişsel denklik",
+          "Kurbanı tazmin etme",
+        ],
+        0,
+        "Davranış ödül veya istenen sonuçla takip edilirse tekrarlanma olasılığı artar; burada saldırganlık pekiştirilmektedir."
+      ),
+      makeQuestion(
+        "Klasik koşullanma",
+        "Bir öğrenci her defasında alay edildiği koridoru görünce henüz kimse bir şey yapmadan geriliyor ve saldırgan savunmaya geçiyor. Bu örnek hangi öğrenme mantığıyla daha iyi açıklanır?",
+        [
+          "Koridorun olumsuz duyguyla koşullanması",
+          "Eşleşme olgusu",
+          "Son teklif tahkimi",
+          "Üstün kimlik",
+        ],
+        0,
+        "Nötr bir bağlam tekrar tekrar olumsuz deneyimle eşleşirse tek başına uyarılma ve savunmacı tepki doğurabilir."
+      ),
+      makeQuestion(
+        "Ayna nöronlar",
+        "Bir bebek yetişkinin yüz ifadesini ve basit hareketini hızla taklit ediyor. Saldırganlık öğrenimi tartışmasında bu bulgu hangi fikri destekler?",
+        [
+          "İnsanlarda gözlenen davranışı taklit etmeye biyolojik yatkınlık bulunabilir.",
+          "Taklit yalnızca yetişkinlikte ortaya çıkar.",
+          "Model davranışı gözlemek öğrenmeyi engeller.",
+          "Saldırganlık hiçbir zaman gözlemle öğrenilmez.",
+        ],
+        0,
+        "Ayna nöronlar ve erken taklit eğilimi, gözlenen davranışların öğrenilmesini kolaylaştıran bir altyapı olarak yorumlanır."
+      ),
+      makeQuestion(
+        "GAM girdileri",
+        "Bir kişi uykusuz, sıcak bir odada, hakaret içeren mesajlar okuyor ve zaten düşmanca kişilik eğilimi taşıyor. Genel Saldırganlık Modeli açısından bu öğeler neyi oluşturur?",
+        [
+          "Kişisel ve durumsal girdi faktörleri",
+          "Sadece sonuç değerlendirmesi",
+          "Yalnızca grup normu",
+          "İlişkisel denklik",
+        ],
+        0,
+        "GAM kişi özellikleri ve durum ipuçlarının içsel duygu, düşünce ve uyarılmayı etkilediğini söyler."
+      ),
+      makeQuestion(
+        "Reaktif saldırganlık",
+        "Bir çocuk oyun sırasında yanlışlıkla düşürülünce düşünmeden yumruk atıyor; önceden planı yok, tepki ani ve öfke dolu. Bu saldırganlık türü hangisidir?",
+        [
+          "Reaktif saldırganlık",
+          "Proaktif saldırganlık",
+          "Dolaylı fedakarlık",
+          "Kazan-kazan pazarlık",
+        ],
+        0,
+        "Reaktif saldırganlık algılanan tehdit veya kışkırtmaya verilen ani, duygusal tepkidir."
+      ),
+      makeQuestion(
+        "Proaktif saldırganlık",
+        "Bir öğrenci, popülerlik kazanmak için zayıf gördüğü arkadaşını planlı şekilde küçük düşürüyor ve bunu statü elde etmenin yolu olarak kullanıyor. Bu davranış hangisine yakındır?",
+        [
+          "Proaktif saldırganlık",
+          "Sadece refleksif öfke",
+          "Güvenli bağlanma",
+          "Toplumsal sorumluluk",
+        ],
+        0,
+        "Proaktif saldırganlık araçsaldır; kişi bir hedefe ulaşmak için planlı biçimde zarar verir."
+      ),
+      makeQuestion(
+        "Aile zorlayıcı döngü",
+        "Anne bağırınca çocuk daha çok direniyor; çocuk direnince anne daha sert ceza veriyor. Sonunda iki taraf da birbirinin sertliğini artırıyor. Bu örüntü hangi riski anlatır?",
+        [
+          "Zorlayıcı ebeveynlik döngüsü",
+          "Salt maruz kalma etkisi",
+          "Jigsaw öğrenme",
+          "GRIT stratejisi",
+        ],
+        0,
+        "Zorlayıcı döngü, ebeveyn ve çocuğun karşılıklı tepkileriyle saldırganlığın pekişmesini anlatır."
+      ),
+      makeQuestion(
+        "Akran reddi",
+        "Saldırgan çocuk sınıfta reddediliyor, sonra kendisi gibi saldırgan akranlarla takılıyor ve saldırganlığın kabul gördüğü ortamlara giriyor. En uygun yorum hangisidir?",
+        [
+          "Akran reddi saldırganlık döngüsünü besleyebilir.",
+          "Akran reddi saldırganlığı daima hemen azaltır.",
+          "Akran etkisi yalnızca yetişkinlikte başlar.",
+          "Saldırgan akran çevresi koruyucu faktördür.",
+        ],
+        0,
+        "Slaytlarda reddedilen saldırgan çocukların saldırgan akran çevrelerine yönelerek davranışı sürdürebildiği anlatılır."
+      ),
+      makeQuestion(
+        "Bulaşma etkisi",
+        "Başta sakin olan bir öğrenci, saldırganlığın normal kabul edildiği sınıfa girdikten aylar sonra fiziksel saldırganlığı artırıyor. Bu örnek neyi gösterir?",
+        [
+          "Akran ortamında saldırganlık bulaşması",
+          "Güvenli bağlanma",
+          "Kişisel adil dünya kaynağı",
+          "Eşleşme olgusu",
+        ],
+        0,
+        "Saldırganlığa toleranslı akran ortamı özellikle düşük başlangıç düzeyindeki öğrencileri etkileyebilir."
+      ),
+      makeQuestion(
+        "Duygu düzenleme",
+        "Bir çocuk hayal kırıklığı yaşayınca dikkatini sürekli engelleyici uyarana veriyor, öfkesini dışa vuruyor ve sakinleşemiyor. Bu profil hangi saldırganlık riskine yakındır?",
+        [
+          "Uyumsuz öfke düzenlemesi",
+          "Karşılıklılık normu",
+          "Denklik ilkesi",
+          "Bütünleştirici anlaşma",
+        ],
+        0,
+        "Uyumsuz öfke düzenleme, özellikle reaktif saldırganlığı öngören duygusal risk faktörlerindendir."
+      ),
+      makeQuestion(
+        "Zihin Kuramı",
+        "Bir çocuk başkasının yanlış inanca sahip olabileceğini anlayamıyor ve her davranışı kendi gördüğü sonuçtan ibaret sanıyor. Sosyal bilgi işleme açısından hangi beceri zayıftır?",
+        [
+          "Bilişsel Zihin Kuramı",
+          "Fiziksel çekicilik",
+          "Son teklif tahkimi",
+          "Sosyal kaytarma",
+        ],
+        0,
+        "Bilişsel Zihin Kuramı başkalarının inanç, niyet ve arzularını temsil etme becerisidir."
+      ),
+      makeQuestion(
+        "Testosteronun iki işlevi",
+        "Bir araştırmacı testosteronun hem erken gelişimde beyin organizasyonunu etkilediğini hem de ergenlik/yetişkinlikte mevcut davranışı etkinleştirebildiğini söylüyor. Bu ayrım hangisidir?",
+        [
+          "Organizasyon ve aktivasyon işlevleri",
+          "Yakınlık ve tutku işlevleri",
+          "Temas ve tahkim işlevleri",
+          "Uyma ve kaytarma işlevleri",
+        ],
+        0,
+        "Testosteronun organizasyon işlevi erken gelişimsel yapılandırmayı, aktivasyon işlevi mevcut davranışsal etkiyi anlatır."
+      ),
+      makeQuestion(
+        "Alkol beklentisi",
+        "Katılımcı aslında alkolsüz içecek içiyor ama alkol aldığını sanıyor ve daha saldırgan davranıyor. Bu sonuç hangi etkiyi gösterir?",
+        [
+          "Alkol beklentisi etkisi",
+          "Kişisel adil dünya inancı",
+          "Jigsaw sınıf etkisi",
+          "Eşit statü etkisi",
+        ],
+        0,
+        "Slaytlarda alkol aldığını düşünmenin bile saldırganlığı artırabilecek beklenti etkisi yaratabildiği belirtilir."
+      ),
+      makeQuestion(
+        "Medya korelasyonu",
+        "Bir öğrenci 'medya şiddeti ile saldırganlık arasındaki ilişki küçükse önemsizdir' diyor. Slaytlardaki halk sağlığı karşılaştırmasına göre daha doğru yorum hangisidir?",
+        [
+          "Küçük-orta korelasyonlar geniş nüfusta önemli sonuçlara sahip olabilir.",
+          "Korelasyon .20 ise hiçbir pratik anlam taşımaz.",
+          "Medya etkisi sadece tek bir deneyde görülmüştür.",
+          "Saldırganlık yalnızca kalıtımla belirlendiği için medya anlamsızdır.",
+        ],
+        0,
+        "Slaytlarda medya şiddeti korelasyonlarının kabul gören halk sağlığı riskleriyle karşılaştırılabilir büyüklükte olabileceği vurgulanır."
+      ),
+      makeQuestion(
+        "Uzunlamasına medya etkisi",
+        "8 yaşında yoğun şiddet izleyen çocukların, aile ve başlangıç saldırganlığı kontrol edilse bile yetişkinlikte saldırgan/suç davranışıyla ilişkisi bulunuyor. Bu bulgu neyi güçlendirir?",
+        [
+          "Medya şiddetinin kümülatif uzun vadeli etkisi olabileceğini",
+          "Medya etkisinin yalnızca aynı gün sürdüğünü",
+          "Şiddet izleyen herkesin kesin suçlu olacağını",
+          "Aile etkisinin tümüyle yok sayılması gerektiğini",
+        ],
+        0,
+        "Uzunlamasına çalışmalar medya şiddeti maruziyetinin daha sonraki saldırganlıkla bağımsız ilişki gösterebildiğini aktarır."
+      ),
+      makeQuestion(
+        "Müdahale seçimi",
+        "Bir okul saldırganlığı azaltmak için sadece cezaya değil, medya süresini sınırlamaya, öfke düzenleme becerilerine ve aile-akran döngülerine birlikte odaklanıyor. Bu yaklaşım hangi ana fikre uyar?",
+        [
+          "Saldırganlık çok boyutlu olduğu için çok düzeyli müdahale gerekir.",
+          "Tek bir biyolojik neden tüm saldırganlığı açıklar.",
+          "Saldırganlığı azaltmak için yalnızca ağır ceza yeterlidir.",
+          "Akran ve aile süreçleri saldırganlıkla ilgisizdir.",
+        ],
+        0,
+        "Slaytların ortak sonucu saldırganlığın biyolojik, bilişsel, duygusal, sosyal ve medya etkenleriyle birlikte açıklanmasıdır."
+      ),
+    ],
+  },
+  {
+    id: "yardim-etme-derin",
+    title: "Test 6: Yardım Etme Derinleşme",
+    subtitle: "Özgecilik, normlar, seyirci etkisi ve yardım artırma yolları",
+    duration: 30,
+    questions: [
+      makeQuestion(
+        "Sosyal değiş-tokuş",
+        "Bir kişi kan bağışı kararında iğne korkusu ve zaman kaybını, kendini iyi hissetme ve suçluluk duymamayı hesaba katıyor. Bu karar hangi kurama yakındır?",
+        [
+          "Sosyal değiş-tokuş kuramı",
+          "Grupdüşün",
+          "Düşmanca atıf önyargısı",
+          "Eşit statülü temas",
+        ],
+        0,
+        "Sosyal değiş-tokuş kuramı yardım davranışını maliyet ve ödül dengesiyle açıklar."
+      ),
+      makeQuestion(
+        "Dışsal ödül",
+        "Bir şirket bağışını gizli yapmak yerine reklam kampanyasının merkezine koyuyor ve toplumsal prestij kazanıyor. Yardım motivasyonu açısından ne öne çıkar?",
+        [
+          "Dışsal ödül ve statü kazanımı",
+          "Saf çoğulcu cehalet",
+          "Fiziksel anonimlik",
+          "Bilişsel Zihin Kuramı",
+        ],
+        0,
+        "Onay, imaj ve statü gibi dışsal ödüller yardım davranışını artırabilir."
+      ),
+      makeQuestion(
+        "İçsel ödül",
+        "Gönüllü biri kimse bilmediği halde yardım ettikten sonra kendini daha değerli ve iyi hissediyor. Bu hangi yardım motivasyonudur?",
+        [
+          "İçsel ödül",
+          "Son teklif tahkimi",
+          "Sosyal kaytarma",
+          "Dış grup homojenliği",
+        ],
+        0,
+        "Yardım etmek özsaygı, iyi hissetme ve içsel doyum sağlayabilir."
+      ),
+      makeQuestion(
+        "İyi hisset-iyilik yap",
+        "Bir satış görevlisi moral yükselten bir iltifat aldıktan sonra, hemen ardından yardım isteyen kişiye daha çok zaman ayırıyor. Bu hangi bulguyla uyumludur?",
+        [
+          "İyi ruh hali yardım etmeyi artırabilir.",
+          "Olumlu duygu yardım etmeyi daima azaltır.",
+          "Yardım yalnızca suçlulukla ortaya çıkar.",
+          "Mutluluk sosyal sorumluluk normunu yok eder.",
+        ],
+        0,
+        "Yardım etme slaytlarında mutlu insanların daha yardımsever olduğuna dair güçlü bulgular anlatılır."
+      ),
+      makeQuestion(
+        "Kötü hisset-iyilik yap",
+        "Bir kişi küçük bir hata yaptıktan sonra, düşen eşyaları toplamak için normalden daha istekli davranıyor. Bu hangi senaryoya uygundur?",
+        [
+          "Kötü hisset-iyilik yap, özellikle suçluluk üzerinden",
+          "Sosyal kaytarma",
+          "Ayna görüntüsü algısı",
+          "Kayıtsız bağlanma",
+        ],
+        0,
+        "Suçluluk ve bazı olumsuz duygular, benlik imajını onarma amacıyla yardımı artırabilir."
+      ),
+      makeQuestion(
+        "Keder istisnası",
+        "Yakınını yeni kaybeden biri, çevresindeki yardım çağrılarını fark etmiyor; çünkü yoğun biçimde kendi acısına gömülmüş durumda. Bu durum hangi uyarıyla uyumludur?",
+        [
+          "Derin keder kendine odaklanmayı artırıp yardımı azaltabilir.",
+          "Her olumsuz duygu yardımı kesin artırır.",
+          "Keder sosyal sorumluluğu daima güçlendirir.",
+          "Yardım davranışı duygu durumundan etkilenmez.",
+        ],
+        0,
+        "Slaytlarda derin keder ve depresif kendine odaklanmanın yardım etmeyi sınırlayabileceği belirtilir."
+      ),
+      makeQuestion(
+        "Toplumsal sorumluluk normu",
+        "Bir kişi karşılık veremeyecek durumda olan engelli bir yabancının düşürdüğü kitapları topluyor. Hangi norm daha belirgindir?",
+        [
+          "Toplumsal sorumluluk normu",
+          "Karşılıklılık normu",
+          "Fikir birliği yanılgısı",
+          "Grup kutuplaşması",
+        ],
+        0,
+        "Toplumsal sorumluluk normu, karşılık beklemeden ihtiyaç sahiplerine yardım edilmesi gerektiği inancıdır."
+      ),
+      makeQuestion(
+        "Yardım alma ve özsaygı",
+        "Gururlu bir öğrenci, herkesin içinde yardım teklif edilince minnet yerine küçük düşmüş hissediyor. Bu hangi noktayı anlatır?",
+        [
+          "Yardım almak özsaygıyı tehdit edebilir.",
+          "Karşılıklılık normu her zaman rahatlatır.",
+          "Yardım almak statüyü kesin artırır.",
+          "Özsaygı yardım alma davranışıyla ilgisizdir.",
+        ],
+        0,
+        "Talep edilmemiş veya karşılık verilemeyen yardım, bazı kişilerde bağımlılık ve yetersizlik hissi yaratabilir."
+      ),
+      makeQuestion(
+        "Akraba koruma",
+        "Yangında insanlar önce çocuklarını ve kardeşlerini kurtarmaya çalışıyor; yabancılara yardım daha sonra geliyor. Evrimsel psikoloji açısından hangi açıklama uygundur?",
+        [
+          "Akraba koruma",
+          "Grupdüşün",
+          "Denklik ilkesi",
+          "Kurbanı suçlama",
+        ],
+        0,
+        "Akraba koruma, genetik yakınlığı olan kişilere yardım eğiliminin evrimsel açıdan avantaj sağlayabileceğini söyler."
+      ),
+      makeQuestion(
+        "Karşılıklı özgecilik",
+        "Bir kişi bugün arkadaşının taşınmasına yardım ediyor; ileride kendi ihtiyacında onun da yardım edeceğini bekliyor. Evrimsel açıklama hangisidir?",
+        [
+          "Karşılıklı özgecilik",
+          "Fiziksel anonimlik",
+          "Ayna görüntüsü",
+          "Kimlik yitimi",
+        ],
+        0,
+        "Karşılıklı özgecilikte yardım, gelecekte karşılık görme beklentisiyle sürdürülebilir."
+      ),
+      makeQuestion(
+        "Empati-özgecilik",
+        "Bir öğrenci, acı çeken kişiden kolayca uzaklaşabilecek olmasına rağmen yoğun empati duyduğu için kalıp yardım ediyor. Batson'a göre hangi açıklama güçlenir?",
+        [
+          "Empati samimi özgeciliği tetikleyebilir.",
+          "Yardım yalnızca kaçış imkanı olmadığında olur.",
+          "Empati yardım davranışını azaltır.",
+          "Yardım sadece dışsal ödüle dayanır.",
+        ],
+        0,
+        "Batson'ın yaklaşımında empati, kişinin kendi sıkıntısından çok başkasının iyiliğine odaklanan yardım doğurabilir."
+      ),
+      makeQuestion(
+        "Fark etme aşaması",
+        "Kalabalık ve gürültülü bir metroda yere düşen kişiyi birçok insan gerçekten fark etmiyor; sessiz bir sokakta ise aynı olay hemen görülüyor. Yardım karar ağacında hangi aşama etkilenmiştir?",
+        [
+          "Olayı fark etme",
+          "Yardımı ödüllendirme",
+          "Bağlanma tarzı seçme",
+          "Kalıpyargı tehdidi",
+        ],
+        0,
+        "Latane ve Darley modelinde yardımın ilk adımı olayın fark edilmesidir."
+      ),
+      makeQuestion(
+        "Yorumlama aşaması",
+        "Bir kadın 'seni tanımıyorum, uzak dur' dediğinde daha çok kişi müdahale ediyor; 'seninle neden evlendim' dediğinde daha az kişi müdahale ediyor. Fark hangi aşamayla ilgilidir?",
+        [
+          "Olayı acil durum olarak yorumlama",
+          "Akrabalık derecesini hesaplama",
+          "Ödül matrisini değiştirme",
+          "Fiziksel çekicilik değerlendirme",
+        ],
+        0,
+        "Yardım davranışı, olayın nasıl yorumlandığına ve acil durum sayılıp sayılmadığına bağlıdır."
+      ),
+      makeQuestion(
+        "Sorumluluk alma",
+        "Bir kişi kazayı görüyor ve ciddi olduğunu anlıyor; ama çevrede çok kişi olduğu için 'nasıl olsa biri arar' diye bekliyor. Hangi aşamada takılmıştır?",
+        [
+          "Sorumluluk alma",
+          "Olayı fark etme",
+          "Empati kurma",
+          "Yüceltme",
+        ],
+        0,
+        "Seyirci etkisinin kritik parçalarından biri sorumluluğun başkalarına dağılmasıdır."
+      ),
+      makeQuestion(
+        "Şehir ve yardım",
+        "Büyük şehirde yaşayanlar sürekli yardım ihtiyacı, kalabalık ve uyaran bombardımanı içinde daha seçici ve mesafeli davranıyor. Bu durum neyle açıklanabilir?",
+        [
+          "Algısal aşırı yükleme ve merhamet yorgunluğu",
+          "Güvenli bağlanma",
+          "Salt maruz kalmanın artması",
+          "Denklik ilkesinin yokluğu",
+        ],
+        0,
+        "Slaytlarda büyük şehirlerde algısal aşırı yükleme ve merhamet yorgunluğunun yardımı azaltabileceği anlatılır."
+      ),
+      makeQuestion(
+        "Benzerlik ve yardım",
+        "Bir bağış kampanyasında mağdurun aynı okuldan, aynı şehirden ve benzer yaşam öyküsünden olduğu vurgulanınca destek artıyor. Hangi etki öne çıkar?",
+        [
+          "Benzerlik yardım etmeyi artırabilir.",
+          "Benzerlik yardım etmeyi her zaman azaltır.",
+          "Yardım yalnızca akrabalara yönelir.",
+          "Benzerlik sadece romantik çekimde etkilidir.",
+        ],
+        0,
+        "Benzerlik duygudaşlığı, yakınlığı ve yardım etme isteğini artırabilir."
+      ),
+      makeQuestion(
+        "Kişisel rica",
+        "Kan bağışı afişleri az etkiliyken, bir arkadaşın doğrudan 'benimle gelir misin?' demesi bağışı artırıyor. Hangi ilke çalışır?",
+        [
+          "Kişisel rica sorumluluğu ve yakınlığı artırır.",
+          "Anonimlik yardımı artırır.",
+          "Sosyal kaytarma yardımı güçlendirir.",
+          "Kalıpyargı tehdidi bağışı artırır.",
+        ],
+        0,
+        "Slaytlarda kişisel talep, göz kontağı ve isimle hitap gibi kişiselleştirmenin yardımı artırdığı aktarılır."
+      ),
+      makeQuestion(
+        "Benlik farkındalığı",
+        "Bir deneyde aynadan kendini yeni görmüş yayalar, görmeyenlere göre yabancının kartpostalını postalamaya daha istekli oluyor. Hangi mekanizma uygundur?",
+        [
+          "Benlik farkındalığı özgeci ideallerle uyumu artırabilir.",
+          "Ayna görmek sosyal kaytarmayı artırır.",
+          "Benlik farkındalığı sorumluluğu azaltır.",
+          "Yardım davranışı benlik imajından etkilenmez.",
+        ],
+        0,
+        "Benlik farkındalığı, kişinin davranışını kendi yardımsever idealleriyle daha uyumlu hale getirebilir."
+      ),
+      makeQuestion(
+        "Manevi kapsam",
+        "Bir eğitim programı öğrencilere sadece kendi grubunu değil, uzak ve farklı grupları da ahlaki ilgi çemberine almayı öğretiyor. Amaç hangi kavramı genişletmektir?",
+        [
+          "Manevi kapsam",
+          "Fiziksel çekicilik",
+          "Reaktif saldırganlık",
+          "Sosyal kaytarma",
+        ],
+        0,
+        "Manevi kapsam, ahlaki değer ve adalet kurallarının kimleri kapsadığıyla ilgilidir."
+      ),
+      makeQuestion(
+        "Yaparak öğrenme",
+        "Çocuklar hastanedeki çocuklar için oyuncak hazırladıkça, sonraki haftalarda daha yardımsever davranmaya başlıyor. Bu hangi sosyalleştirme yoludur?",
+        [
+          "Yardımseverliği yaparak öğrenme",
+          "Kurbanı suçlama",
+          "Son teklif tahkimi",
+          "Dış grup homojenliği",
+        ],
+        0,
+        "Yardım davranışı tekrarlandıkça kişi kendini daha yardımsever algılayabilir ve bu davranış pekişebilir."
+      ),
+    ],
+  },
+  {
+    id: "yakin-iliskiler-derin",
+    title: "Test 7: Yakın İlişkiler Derinleşme",
+    subtitle: "Çekim, aşk, bağlanma, denklik ve ayrılık süreçleri",
+    duration: 30,
+    questions: [
+      makeQuestion(
+        "Aidiyet gereksinimi",
+        "Yeni bir şehre taşınan öğrenci, yakın bağlarını kaybettiğinde yalnızlık, ev özlemi ve geri çekilme yaşıyor. Bu durum hangi temel ihtiyacı gösterir?",
+        [
+          "Aidiyet ve kalıcı yakın ilişki ihtiyacı",
+          "Sosyal kaytarma ihtiyacı",
+          "Düşmanca atıf ihtiyacı",
+          "Tahkim ihtiyacı",
+        ],
+        0,
+        "Yakın ilişkiler slaytları insanların kalıcı ve destekleyici bağlar kurma ihtiyacını vurgular."
+      ),
+      makeQuestion(
+        "Sanal dışlanma",
+        "Bir çevrimiçi top oyununda iki oyuncu üçüncü kişiye pas vermeyi bırakıyor. Dışlanan kişi onları hiç tanımadığı halde incinmiş ve stresli hissediyor. Hangi bulguya uygundur?",
+        [
+          "Sanal dışlanma bile sosyal acı yaratabilir.",
+          "Dışlanma yalnızca aile içinde acı verir.",
+          "Dışlanma fiziksel acıdan daha kolay unutulur.",
+          "Dışlanma her zaman yardım etmeyi artırır.",
+        ],
+        0,
+        "Slaytlarda Cyberball benzeri sanal dışlanmanın bile duygu durumunu bozduğu anlatılır."
+      ),
+      makeQuestion(
+        "Etkileşim beklentisi",
+        "Bir öğrenci dönem boyunca aynı laboratuvar partneriyle çalışacağını öğrenince, henüz tanışmadan onu daha olumlu değerlendirmeye başlıyor. Bu hangi çekim etkenidir?",
+        [
+          "Etkileşim beklentisi",
+          "Sosyal kaytarma",
+          "Ahlaki dışlama",
+          "GRIT",
+        ],
+        0,
+        "Birisiyle gelecekte etkileşim kurma beklentisi, uyumlu ilişki ihtimali nedeniyle hoşlanmayı artırabilir."
+      ),
+      makeQuestion(
+        "Aşinalık sınırı",
+        "Bir şarkı aralıklı olarak dinlendikçe seviliyor; ama sürekli ve yoğun tekrar bıkkınlık yaratıyor. Salt maruz kalma açısından en iyi yorum hangisi?",
+        [
+          "Tekrar genelde sevmeyi artırır ama aralıksız aşırı tekrar bıkkınlık yaratabilir.",
+          "Aşinalık her koşulda tiksinti yaratır.",
+          "Salt maruz kalma yalnızca yüzlerde olur.",
+          "Tekrar etki yaratmaz.",
+        ],
+        0,
+        "Slaytlarda aşinalığın çoğu zaman hoşlanmayı artırdığı, fakat kesintisiz aşırı tekrarın bıktırabileceği belirtilir."
+      ),
+      makeQuestion(
+        "İsim harfi etkisi",
+        "İnsanlar kendi adlarında geçen harfleri veya doğum tarihlerini içeren sayıları daha olumlu değerlendiriyor. Bu hangi mekanizmanın örneğidir?",
+        [
+          "Aşinalık ve benlikle ilişkili salt maruz kalma",
+          "Grupdüşün",
+          "Kamusal mülkiyet trajedisi",
+          "Kurbanı suçlama",
+        ],
+        0,
+        "Kişinin kendi ismine ve tanıdık uyaranlara maruz kalması olumlu değerlendirme yaratabilir."
+      ),
+      makeQuestion(
+        "İlk izlenim",
+        "Kısa süreli iş görüşmelerinde adayın görünüşü, karakteri hakkında sınırlı bilgi varken değerlendirmeyi güçlü etkiliyor. Çekicilik slaytlarına göre neden?",
+        [
+          "Çekicilik özellikle ilk izlenimlerde güçlüdür.",
+          "Çekicilik yalnızca uzun evliliklerde etkilidir.",
+          "İlk izlenimler sosyal psikolojide önemsizdir.",
+          "Görünüş olumlu kalıpyargı yaratmaz.",
+        ],
+        0,
+        "Fiziksel çekicilik kalıpyargısı kısa ve hızlı temaslarda daha fazla etki gösterebilir."
+      ),
+      makeQuestion(
+        "Evrimsel eş tercihi",
+        "Bir çalışmada erkekler asgari düzeyde fiziksel çekiciliğe, kadınlar ise kaynak ve statü göstergelerine daha fazla önem veriyor; iki taraf da nezaket ve zekayı istiyor. Bu hangi çerçeveyle tartışılır?",
+        [
+          "Evrimsel eş tercihi açıklamaları",
+          "Tutsak ikilemi",
+          "Çoğulcu cehalet",
+          "Sosyal kaytarma",
+        ],
+        0,
+        "Evrimsel psikoloji, eş tercihlerinin üreme ve kaynak sağlama ipuçlarıyla ilişkisini tartışır."
+      ),
+      makeQuestion(
+        "Zıtlık etkisi",
+        "Kusursuz modellerin fotoğraflarına bakan biri, hemen ardından ortalama yüzleri daha az çekici değerlendiriyor. Bu hangi etkidir?",
+        [
+          "Sosyal karşılaştırmaya dayalı zıtlık etkisi",
+          "Karşılıklılık normu",
+          "Üstün amaç",
+          "Yönetici işlev",
+        ],
+        0,
+        "Karşılaştırma standardı aşırı yükseldiğinde sıradan uyaranlar daha olumsuz değerlendirilebilir."
+      ),
+      makeQuestion(
+        "Algılanan benzerlik",
+        "Oda arkadaşları gerçekten bazı açılardan benzemese de birbirlerini benzer algıladıkça arkadaşlıkları daha uzun sürüyor. Bu neyi gösterir?",
+        [
+          "Algılanan benzerlik ilişkiyi besleyebilir.",
+          "Gerçek ve algılanan benzerlik ilişkisizdir.",
+          "Benzerlik sadece düşmanlık yaratır.",
+          "Algı uzun vadeli ilişkilerde önemsizdir.",
+        ],
+        0,
+        "Slaytlarda gerçek benzerliğin önemli olduğu, ancak algılanan benzerliğin de güçlü rol oynadığı belirtilir."
+      ),
+      makeQuestion(
+        "Üstü örtük taklit",
+        "Garson müşterinin beden dilini hafifçe yansıttığında müşteri daha sıcak hissediyor ve bahşiş artıyor. Bu hangi çekim mekanizmasına uyar?",
+        [
+          "Üstü örtük taklit hoşlanmayı artırabilir.",
+          "Taklit her zaman rahatsızlık yaratır.",
+          "Taklit yalnızca saldırganlığı artırır.",
+          "Taklit kalıpyargıyı otomatik azaltır.",
+        ],
+        0,
+        "Benzer davranma ve hafif taklit, uyum hissi yaratarak hoşlanmayı artırabilir."
+      ),
+      makeQuestion(
+        "Olumsuz bilgi ağırlığı",
+        "Bir öğrenci kendisi hakkında sekiz olumlu yorum yapan kişiyi, yedi olumlu bir olumsuz yorum yapan kişiden daha çok seviyor. Bu hangi ilkeyle uyumludur?",
+        [
+          "Olumsuz bilginin daha fazla ağırlık taşıması",
+          "Olumlu bilginin her zaman daha güçlü olması",
+          "Sosyal kolaylaştırma",
+          "Akraba koruma",
+        ],
+        0,
+        "İnsanlar eleştiriye duyarlıdır; olumsuz bilgi seyrek ve dikkat çekici olduğu için daha fazla ağırlık taşıyabilir."
+      ),
+      makeQuestion(
+        "İltifat yüklemesi",
+        "Bir kişi gerçekçi olmayan aşırı övgü duyunca, öven kişinin çıkar elde etmeye çalıştığını düşünüp ondan soğuyor. Bu hangi sürece bağlıdır?",
+        [
+          "Övgünün kendini sevdirme çabasına atfedilmesi",
+          "Sosyal sorumluluk normu",
+          "Dış grup homojenliği",
+          "Uyarılma aktarımı",
+        ],
+        0,
+        "Övgünün samimi mi yoksa çıkar amaçlı mı olduğu yönündeki yüklemeler çekimi etkiler."
+      ),
+      makeQuestion(
+        "Özsaygı ve onay",
+        "Kısa süre önce olumsuz geri bildirim alan biri, kendisine sıcak davranan çekici kişiye normalden daha güçlü ilgi duyuyor. Bu hangi bulguyla uyumludur?",
+        [
+          "Onaydan mahrum kalınca kabul edilme daha ödüllendirici olabilir.",
+          "Düşük özsaygı her zaman ilgiyi azaltır.",
+          "Onay ihtiyacı çekimde rol oynamaz.",
+          "Reddedilme romantik ilgiyi kesin engeller.",
+        ],
+        0,
+        "Hatfield çizgisindeki bulgular, özsaygı geçici zedelendiğinde kabul görmenin daha ödüllendirici olabileceğini gösterir."
+      ),
+      makeQuestion(
+        "Tutkulu aşk",
+        "İki kişi yoğun özlem, fizyolojik uyarılma ve sürekli birlikte olma isteği yaşıyor; fakat uzun vadeli bağlılık henüz oluşmamış. Sternberg açısından hangi bileşen baskın?",
+        [
+          "Tutku",
+          "Yalnız bağlılık",
+          "Yalnız denklik",
+          "Yalnız sosyal sorumluluk",
+        ],
+        0,
+        "Tutkulu aşk güçlü fizyolojik uyarılma, özlem ve romantik çekimle karakterizedir."
+      ),
+      makeQuestion(
+        "Tam aşk",
+        "Bir çiftte güçlü yakınlık, canlı tutku ve uzun vadeli bağlılık birlikte bulunuyor. Sternberg modelinde bu durum hangisidir?",
+        [
+          "Tam aşk",
+          "Boş aşk",
+          "Arkadaşça aşk",
+          "Kayıtsız bağlanma",
+        ],
+        0,
+        "Sternberg'e göre yakınlık, tutku ve bağlılığın birlikte olduğu ilişki tam aşkı gösterir."
+      ),
+      makeQuestion(
+        "Korkulu bağlanma",
+        "Bir kişi yakınlık istiyor ama reddedilmekten korktuğu için ilişkilere yaklaşınca geri çekiliyor. Benlik ve başkaları imgesi olumsuz. Bu tarz hangisidir?",
+        [
+          "Korkulu bağlanma",
+          "Güvenli bağlanma",
+          "Tam aşk",
+          "Üstün amaç",
+        ],
+        0,
+        "Korkulu bağlanmada hem benlik hem başkaları hakkında olumsuz beklenti ve yakınlıktan kaçınma görülür."
+      ),
+      makeQuestion(
+        "Kayıtsız bağlanma",
+        "Bir kişi yakın ilişkiye yatırım yapmaktan kaçınıyor, bağımsızlığını vurguluyor ve başkalarına güvenmiyor; kendini ise yeterli görüyor. Bu hangi bağlanma tarzıdır?",
+        [
+          "Kayıtsız bağlanma",
+          "Saplantılı bağlanma",
+          "Güvenli bağlanma",
+          "Arkadaşça aşk",
+        ],
+        0,
+        "Kayıtsız bağlanmada benlik imgesi olumlu, başkaları imgesi olumsuzdur; kaçınma belirgindir."
+      ),
+      makeQuestion(
+        "Algılanan adaletsizlik",
+        "Ev işlerinin çoğunu yaptığını düşünen eş, partnerinin kendi katkısını abarttığını fark ettikçe ilişki doyumu düşüyor. Hangi ilke öne çıkar?",
+        [
+          "Algılanan denklik ve doyum ilişkisi",
+          "Sosyal kaytarma ve seyirci etkisi",
+          "Ayna görüntüsü ve GRIT",
+          "Kalıpyargı tehdidi ve dışlama",
+        ],
+        0,
+        "İlişkide adil katkı ve karşılık algısı doyumla yakından ilişkilidir."
+      ),
+      makeQuestion(
+        "Yatırım modeli",
+        "Bir kişi ilişkiden memnun değil; ancak çok zaman, ortak çevre ve gelecek planı yatırımı olduğu için hemen ayrılmıyor. Hangi süreç açıklayıcıdır?",
+        [
+          "İlişkiye yapılan yatırımın bağlılığı artırması",
+          "Salt maruz kalmanın bıkkınlık yaratması",
+          "Sosyal kaytarma",
+          "Kurbanı suçlama",
+        ],
+        0,
+        "Yatırım, seçenekler ve doyum ilişkiyi sürdürme kararında etkilidir."
+      ),
+      makeQuestion(
+        "Gottman oranı",
+        "Bir çift tartışıyor ama eleştiriyi gülümseme, dokunma, onay ve mizahla dengeliyor; olumlu etkileşimler olumsuzlardan açıkça fazla. Bu neyi destekler?",
+        [
+          "Sağlıklı ilişkide olumlu etkileşimlerin olumsuzlara üstün gelmesi gerekir.",
+          "Sağlıklı ilişkide hiç çatışma olmamalıdır.",
+          "Olumsuz etkileşimler ilişkiyi daima güçlendirir.",
+          "Yakın ilişki doyumu iletişimden etkilenmez.",
+        ],
+        0,
+        "Gottman bulguları başarılı ilişkilerde olumlu etkileşimlerin olumsuzları belirgin biçimde aşmasını vurgular."
+      ),
+    ],
+  },
+  {
+    id: "grup-surecleri-derin",
+    title: "Test 8: Grup Süreçleri Derinleşme",
+    subtitle: "Uyma, verimlilik, kutuplaşma, grupdüşün ve azınlık etkisi",
+    duration: 30,
+    questions: [
+      makeQuestion(
+        "Grup tanımı",
+        "Otobüs durağında bekleyen insanlar yan yana duruyor ama etkileşim yok. Aynı kişiler geciken otobüs için birlikte çözüm aramaya başlayınca 'biz' dili oluşuyor. En temel grup koşulu hangisidir?",
+        [
+          "Etkileşim",
+          "Fiziksel yakınlık tek başına",
+          "Mutlak benzerlik",
+          "Anonimlik",
+        ],
+        0,
+        "Slaytlarda bir topluluğun grup olmasında en az koşulun etkileşim olduğu vurgulanır."
+      ),
+      makeQuestion(
+        "Grup işlevleri",
+        "Bir öğrenci kulübü üyelerine aidiyet, sosyal kimlik, güvenlik ve tek başına yapamayacakları etkinlikleri gerçekleştirme imkanı sağlıyor. Bu örnek neyi anlatır?",
+        [
+          "Grupların psikolojik ve işlevsel gereksinimleri karşılamasını",
+          "Grupların her zaman verimliliği düşürmesini",
+          "Grupların sadece çatışma yaratmasını",
+          "Aidiyetin saldırganlığı zorunlu artırmasını",
+        ],
+        0,
+        "Gruplar aidiyet, başarı, sosyal kimlik ve güvenlik gibi gereksinimleri karşılayabilir."
+      ),
+      makeQuestion(
+        "Orta statü uyumu",
+        "Bir grupta en çok uyma davranışını, gruba kısmen kabul edilmiş ama yerini sağlamlaştırmak isteyen üyeler gösteriyor. Bu hangi statü düzeyidir?",
+        [
+          "Orta statüdekiler",
+          "En yüksek statüdekiler",
+          "Gruba hiç değer vermeyen dış üyeler",
+          "Tamamen anonim üyeler",
+        ],
+        0,
+        "Dittes ve Kelley bulgularında orta statüdekiler kabulü sağlamlaştırmak için norma daha çok uyar."
+      ),
+      makeQuestion(
+        "Alt statü uyumu",
+        "Grubu pek sevmeyen ama başka seçeneği olmadığı için grup içindeyken norma uyan, yalnızken norma aldırmayan üye hangi uyma biçimini gösterir?",
+        [
+          "İtaat düzeyinde uyma",
+          "Benimseme",
+          "Azınlık etkisi",
+          "Grup kutuplaşması",
+        ],
+        0,
+        "Alt statüdeki üyelerde uyma çoğu zaman içten benimseme değil, gruptan atılmamak için itaat olabilir."
+      ),
+      makeQuestion(
+        "Yüksek statü uyumu",
+        "Grubun sevilen lideri normlara orta statüdeki üyeler kadar titizlikle uymuyor; çünkü yeri zaten sağlam. Bu bulgu neyi anlatır?",
+        [
+          "Yüksek statü güveni uyma baskısını azaltabilir.",
+          "Liderler her zaman en fazla uyar.",
+          "Statü uyma davranışıyla ilişkili değildir.",
+          "Yüksek statü sosyal kaytarmayı imkansız kılar.",
+        ],
+        0,
+        "Yüksek statülü üyeler kazanacak statüleri zaten olduğu için normlara daha az bağımlı davranabilir."
+      ),
+      makeQuestion(
+        "Tutum değişimi",
+        "Bir konuşma grup normuyla aynı yönde olduğunda üyeleri daha çok etkiliyor; normla ters düştüğünde grup değişimi engelliyor. Bu neyi gösterir?",
+        [
+          "Grup tutum değişimini norm yönüne göre artırabilir veya engelleyebilir.",
+          "Gruplar tutum değişimini hiçbir zaman etkilemez.",
+          "Norma ters mesajlar her zaman daha etkileyicidir.",
+          "Tutum değişimi yalnız bireysel süreçtir.",
+        ],
+        0,
+        "Grup, normuyla uyumlu tutum değişimini destekleyebilir, ters yöndeki değişimi baskılayabilir."
+      ),
+      makeQuestion(
+        "Toplamsal iş",
+        "Halat çekmede grubun toplam gücü, bireysel güçlerin toplamından düşük çıkıyor. Önce koordinasyon şüphesi var; sonra tek tek çabanın da azaldığı gösteriliyor. Hangi kavram doğrulanır?",
+        [
+          "Sosyal kaytarma",
+          "Sosyal kolaylaştırma",
+          "Azınlık etkisi",
+          "Kendini açma",
+        ],
+        0,
+        "Ringelmann çizgisindeki bulgular ortak işlerde bireysel çabanın azalabileceğini gösterir."
+      ),
+      makeQuestion(
+        "Kaytarmayı azaltma",
+        "Bir takımda üyeler arkadaş, görev zorlu ve herkes kendi katkısını vazgeçilmez görüyor. Bu koşullar hangi sonucu doğurabilir?",
+        [
+          "Sosyal kaytarma azalır.",
+          "Sosyal kaytarma kesin artar.",
+          "Grupdüşün kaçınılmaz olur.",
+          "Fiziksel anonimlik artar.",
+        ],
+        0,
+        "Zorlu görev, grup özdeşleşmesi, arkadaşlık ve vazgeçilmezlik algısı sosyal kaytarmayı azaltabilir."
+      ),
+      makeQuestion(
+        "Değerlendirilme kaygısı",
+        "Bir piyanist iyi bildiği parçayı kalabalık önünde daha iyi çalıyor ama yeni öğrendiği parçayı karıştırıyor. Uyarılma neden böyle iki yönlü etki yapar?",
+        [
+          "Başkalarının varlığı baskın tepkiyi güçlendirir.",
+          "Başkalarının varlığı her görevi iyileştirir.",
+          "Değerlendirilme kaygısı performansla ilgisizdir.",
+          "Sosyal kolaylaştırma yalnız hayvanlarda görülür.",
+        ],
+        0,
+        "Sosyal uyarılma doğru veya yanlış baskın tepkiyi güçlendirir."
+      ),
+      makeQuestion(
+        "Salt varlık",
+        "Bir kişi yalnızca izlenmese bile odada başka insanların bulunmasıyla uyarılıyor ve basit görevde hızlanıyor. Sosyal kolaylaştırmanın hangi kaynağı tartışılır?",
+        [
+          "Salt varlık",
+          "Akraba koruma",
+          "Denklik",
+          "Adil dünya inancı",
+        ],
+        0,
+        "Sosyal kolaylaştırmanın kaynakları arasında değerlendirilme kaygısı, dikkat dağılması ve salt varlık sayılır."
+      ),
+      makeQuestion(
+        "Anonimlik",
+        "Halloween'de grup halinde ve kimliği sorulmadan gelen çocuklar, yalnız ve kimliği bilinen çocuklara göre daha çok fazladan şeker alıyor. Hangi süreç etkilidir?",
+        [
+          "Anonimlik ve kimlik yitimi",
+          "Üstün amaç",
+          "Kendini açma",
+          "Karşılıklılık normu",
+        ],
+        0,
+        "Diener'in çalışmaları grup ve anonimlik koşullarında öz denetimin azalabileceğini gösterir."
+      ),
+      makeQuestion(
+        "Uyarıcı aktiviteler",
+        "Kalabalık bir gösteride birlikte bağırma, ritmik alkış ve dans arttıkça bireysel öz farkındalık azalıyor ve grup davranışı güçleniyor. Bu hangi koşuldur?",
+        [
+          "Kimlik yitimini artıran uyarıcı ve dikkat dağıtan etkinlikler",
+          "Denklik sağlayan ritüeller",
+          "Fikir birliği yanılgısını azaltan teknikler",
+          "Eşit statülü temas koşulları",
+        ],
+        0,
+        "Uyarıcı ve dikkat dağıtan grup etkinlikleri öz farkındalığı azaltıp grup normlarına uyumu güçlendirebilir."
+      ),
+      makeQuestion(
+        "Bilgisel etki",
+        "Bir tartışmada aynı görüşü destekleyen yeni kanıtlar ve örnekler peş peşe paylaşılıyor. Üyeler başlangıçtaki görüşlerini daha uç biçimde savunuyor. Kutuplaşmanın hangi açıklaması öne çıkar?",
+        [
+          "Bilgisel etki",
+          "Fiziksel anonimlik",
+          "Kayıtsız bağlanma",
+          "Akraba koruma",
+        ],
+        0,
+        "Bilgisel etki, tartışma sırasında baskın görüşü destekleyen argümanların birikmesiyle kutuplaşmayı açıklar."
+      ),
+      makeQuestion(
+        "Normatif etki",
+        "Bir grup içinde herkesin kendisinden biraz daha cesur olduğunu sanan kişi, beğenilmek için daha da cesur bir pozisyon açıklıyor. Kutuplaşmanın hangi açıklaması uygundur?",
+        [
+          "Normatif etki ve sosyal karşılaştırma",
+          "Yönetici işlev",
+          "Toplumsal sorumluluk",
+          "Kişisel adil dünya",
+        ],
+        0,
+        "Normatif etki, kabul görme ve referans gruba uygun görünme isteğiyle görüşlerin uçlaşmasını açıklar."
+      ),
+      makeQuestion(
+        "Günlük kutuplaşma",
+        "Sadece aynı politik görüştekileri takip eden kişi, aylar içinde başlangıçtakinden daha sert ve uç ifadeler kullanmaya başlıyor. Bu hangi grup sürecidir?",
+        [
+          "Grup kutuplaşması",
+          "Sosyal kolaylaştırma",
+          "Kendini açma",
+          "Eşleşme olgusu",
+        ],
+        0,
+        "Benzer görüşlü gruplarda tekrar eden tartışmalar var olan eğilimleri güçlendirebilir."
+      ),
+      makeQuestion(
+        "Grupdüşün zemini",
+        "Sıkı bağlı, dış görüşlere kapalı, güçlü liderli ve yüksek stres altındaki ekip hızlıca tek seçeneğe kilitleniyor. Janis'e göre bu zemin ne üretir?",
+        [
+          "Grupdüşün riskini",
+          "Sosyal kaytarma imkansızlığını",
+          "Salt maruz kalma etkisini",
+          "Güvenli bağlanmayı",
+        ],
+        0,
+        "Sargın grup, izolasyon, yönlendirici liderlik ve kriz baskısı grupdüşün riskini artırır."
+      ),
+      makeQuestion(
+        "Akıl muhafızları",
+        "Bir ekip üyesi, projenin başarısız olabileceğini gösteren raporları liderin moralini bozmasın diye toplantıya sokmuyor. Bu grupdüşün belirtisi hangisidir?",
+        [
+          "Akıl muhafızlığı",
+          "Sosyal kolaylaştırma",
+          "Azınlık tutarlılığı",
+          "Karşılıklılık normu",
+        ],
+        0,
+        "Akıl muhafızları grubu rahatsız edici veya kararı sorgulatıcı bilgilerden korur."
+      ),
+      makeQuestion(
+        "Zarar görmezlik yanılgısı",
+        "Bir kriz ekibi, tüm uyarılara rağmen 'bize bir şey olmaz, plan kusursuz' diyerek riskleri küçümsüyor. Hangi grupdüşün belirtisidir?",
+        [
+          "Zarar görmezlik yanılgısı",
+          "Toplumsal sorumluluk",
+          "Dış grup arkadaşlığı",
+          "Yaparak öğrenme",
+        ],
+        0,
+        "Grupdüşünde aşırı iyimserlik ve risk uyarılarını görmezden gelme zarar görmezlik yanılgısıdır."
+      ),
+      makeQuestion(
+        "Azınlık tutarlılığı",
+        "Bir azınlık üyesi her toplantıda aynı gerekçeyi sakin, tutarlı ve özgüvenli biçimde savunuyor; çoğunluk zamanla alternatifleri düşünmeye başlıyor. Etkinin kaynağı nedir?",
+        [
+          "Tutarlılık ve özgüven",
+          "Anonimlik ve kalabalık",
+          "Ödül matrisi",
+          "İlişkisel çekicilik",
+        ],
+        0,
+        "Azınlık etkisi için tutarlılık, özgüven ve çoğunluktan ayrılma belirleyici olabilir."
+      ),
+      makeQuestion(
+        "Muhalefetin faydası",
+        "Bir ekip, samimi bir muhalif sayesinde ilk fikrine körü körüne bağlanmak yerine daha yaratıcı alternatifler üretiyor. Bu neyi gösterir?",
+        [
+          "Azınlık görüşü karar kalitesini artırabilir.",
+          "Muhalefet her zaman grubu bozar.",
+          "Fikir ayrılığı mutlaka sosyal kaytarma yaratır.",
+          "Tek seslilik daima en iyi karardır.",
+        ],
+        0,
+        "Azınlıkların sesini duyurması çoğunluğu seçenekleri yeniden değerlendirmeye ve yaratıcı düşünmeye zorlayabilir."
+      ),
+    ],
+  },
+  {
+    id: "catismalar-derin",
+    title: "Test 9: Çatışma ve Uzlaşma Derinleşme",
+    subtitle: "Sosyal ikilemler, rekabet, temas, işbirliği ve iletişim",
+    duration: 30,
+    questions: [
+      makeQuestion(
+        "Sıfır toplamlı olmayan oyun",
+        "İki departman bütçe için kavga ediyor; oysa ortak proje yapılırsa ikisi de daha yüksek kaynak alabilecek. Bu durum hangi oyun türüne yakındır?",
+        [
+          "Sıfır toplamlı olmayan karma güdülü durum",
+          "Zorunlu kazan-kaybet oyunu",
+          "Salt bireysel ödül oyunu",
+          "Tek taraflı tahkim oyunu",
+        ],
+        0,
+        "Sıfır toplamlı olmayan durumlarda iki taraf birlikte kazanabilir veya birlikte kaybedebilir."
+      ),
+      makeQuestion(
+        "Toplumsal tuzak",
+        "Her şirket filtre takmazsa kısa vadede para kazanıyor; hepsi böyle yapınca hava kirliliği artıyor ve herkes zarar görüyor. Bu hangi kavramdır?",
+        [
+          "Toplumsal tuzak",
+          "Salt maruz kalma",
+          "Bilişsel Zihin Kuramı",
+          "Güvenli bağlanma",
+        ],
+        0,
+        "Toplumsal tuzakta taraflar kendi çıkarını rasyonel biçimde izlerken ortak zarar üretir."
+      ),
+      makeQuestion(
+        "Düzenleme",
+        "Balık stokları tükenmesin diye av sezonu ve kota belirleniyor. Sosyal ikilemi çözme yollarından hangisi uygulanır?",
+        [
+          "Düzenleme ve kural koyma",
+          "Kutuplaşmayı artırma",
+          "Anonimliği artırma",
+          "Yardımı gizleme",
+        ],
+        0,
+        "Ortak kaynakların korunmasında kurallar, kotalar ve yaptırımlar sosyal ikilemi azaltabilir."
+      ),
+      makeQuestion(
+        "Küçük grup etkisi",
+        "Apartman ölçeğinde su tasarrufu kampanyası başarılı olurken, büyük şehir ölçeğinde herkes 'benim katkım fark etmez' diyor. Hangi çözüm ilkesi vurgulanır?",
+        [
+          "Grubu küçük tutmak sorumluluk hissini artırabilir.",
+          "Grup büyüdükçe sorumluluk mutlaka artar.",
+          "Büyük gruplarda iletişim gereksizdir.",
+          "Küçük gruplar sosyal kimlik oluşturamaz.",
+        ],
+        0,
+        "Küçük gruplarda bireyler etkilerini ve sorumluluklarını daha fazla hissedebilir."
+      ),
+      makeQuestion(
+        "İletişim ve güven",
+        "İkilem oyununda taraflar konuşamadığında iş birliği düşüyor; konuşup ortak norm kurduklarında iş birliği artıyor. Hangi çözüm yolu işler?",
+        [
+          "İletişim",
+          "Fiziksel anonimlik",
+          "Kurbanı suçlama",
+          "Düşmanca atıf",
+        ],
+        0,
+        "İletişim grup kimliği, güven, norm ve karşılıklı taahhüt oluşturarak iş birliğini artırabilir."
+      ),
+      makeQuestion(
+        "Kazançları değiştirme",
+        "Şehir, tek kişi araç kullanmayı pahalılaştırıp araç paylaşımına indirim sağlıyor. Sosyal ikilemi çözmek için ne yapılmıştır?",
+        [
+          "Ödül ve maliyet matrisi değiştirilmiştir.",
+          "Kimlik yitimi artırılmıştır.",
+          "Temas eşitsizleştirilmiştir.",
+          "Kutuplaşma teşvik edilmiştir.",
+        ],
+        0,
+        "Kişisel çıkarla ortak yararı uyumlu hale getirmek için ödüller ve maliyetler değiştirilebilir."
+      ),
+      makeQuestion(
+        "Temel atıf hatası",
+        "Çatışmada iki taraf da kendi sertliğini 'mecbur kaldık' diye açıklarken, karşı tarafın sertliğini 'onlar kötü niyetli' diye açıklıyor. Hangi hata görülür?",
+        [
+          "Temel atıf hatası ve kendini haklı çıkarma",
+          "Salt maruz kalma",
+          "Güvenli bağlanma",
+          "Sosyal kolaylaştırma",
+        ],
+        0,
+        "Taraflar kendi davranışlarını durumla, karşı tarafın davranışını kötü eğilimle açıklama eğilimindedir."
+      ),
+      makeQuestion(
+        "Değişen güdüler",
+        "Bir yatırımcı önce kar etmek için, sonra kaybını azaltmak için, en sonunda itibarını kurtarmak için zararlı projeye devam ediyor. Çatışma slaytlarına göre bu neyi gösterir?",
+        [
+          "Güdülerin zamanla değişip çatışmayı sürdürebileceğini",
+          "İnsanların her zaman aynı güdüyle davrandığını",
+          "Sosyal ikilemlerde itibarın önemsiz olduğunu",
+          "Kaybın her zaman iş birliği doğurduğunu",
+        ],
+        0,
+        "Çatışmalarda başlangıç güdüleri zamanla kaybı azaltma ve yüz kurtarma güdülerine dönüşebilir."
+      ),
+      makeQuestion(
+        "Rekabet ve tehdit",
+        "Bir ülkede ekonomik tehdit algısı arttıkça göçmen karşıtı duygu ve sert cezaya destek artıyor. Çatışma kaynaklarından hangisi öne çıkar?",
+        [
+          "Kıt kaynak ve tehdit algısıyla rekabet",
+          "Kendini açma",
+          "Denklikli aşk",
+          "Akraba koruma",
+        ],
+        0,
+        "Kıt iş, konut, kaynak veya tehdit algısı gruplar arası düşmanlığı artırabilir."
+      ),
+      makeQuestion(
+        "Robbers Cave aşaması",
+        "Kampın ilk haftasında iki grup ayrı etkinliklerle kendi içinde bağ kuruyor, isim ve semboller geliştiriyor. Bu aşama neyi hazırlar?",
+        [
+          "Grup kimliği ve sonraki rekabet zemini",
+          "Doğrudan uzlaşma",
+          "Tam asimilasyon",
+          "Sosyal kaytarma yokluğu",
+        ],
+        0,
+        "Sherif çalışmalarında önce iç grup kimliği oluşmuş, sonra rekabetle dış grup düşmanlığı artmıştır."
+      ),
+      makeQuestion(
+        "Algılanan adaletsizlik",
+        "Genç çalışanlar ücretin üretkenliğe göre, yaşlı çalışanlar kıdeme göre verilmesini adil buluyor. Çatışmanın kaynağı nedir?",
+        [
+          "Katkının ve adalet ilkesinin farklı tanımlanması",
+          "Salt maruz kalma",
+          "Fiziksel çekicilik",
+          "Ayna nöronlar",
+        ],
+        0,
+        "İnsanlar adaleti farklı ilkelerle tanımladığında algılanan adaletsizlik çatışma yaratabilir."
+      ),
+      makeQuestion(
+        "Güç ve adalet",
+        "Bir kurumda en güçlü grup, kendi aldığı yüksek payı 'hak edilmiş' sayan kuralları normalleştiriyor. Bu durum hangi saptamaya yakındır?",
+        [
+          "Sosyal gücü olanlar adalet kurallarını kendi lehine tanımlayabilir.",
+          "Güç adalet algısını hiç etkilemez.",
+          "Adalet algısı kültürden bağımsızdır.",
+          "Güçlü gruplar her zaman eşitliği seçer.",
+        ],
+        0,
+        "Slaytlarda sosyal güce sahip olanların aldıklarını hak ettiklerine başkalarını ikna edebildiği anlatılır."
+      ),
+      makeQuestion(
+        "Önyargı kör noktası",
+        "Bir tartışmada her iki taraf da 'biz objektifiz, onların görüşü ideolojik önyargıdan ibaret' diyor. Bu hangi yanlış algıya yakındır?",
+        [
+          "Önyargı kör noktası",
+          "Güvenli bağlanma",
+          "İçsel ödül",
+          "Sosyal kolaylaştırma",
+        ],
+        0,
+        "Önyargı kör noktası, kişinin kendi yargılarının önyargıdan etkilenmediğini, karşı tarafın ise etkilendiğini sanmasıdır."
+      ),
+      makeQuestion(
+        "Basit düşünme",
+        "Kriz tırmandıkça liderin söylemi 'biz tamamen iyiyiz, onlar tamamen kötü' düzeyine iniyor; ara çözümler düşünülmüyor. Hangi süreç vardır?",
+        [
+          "Gerginlikte basitleşmiş düşünme",
+          "Kendini açma",
+          "Denklik",
+          "Salt maruz kalma",
+        ],
+        0,
+        "Çatışma beklentisi rasyonel ve karmaşık düşünmeyi zorlaştırıp basit biz-onlar kalıplarını artırabilir."
+      ),
+      makeQuestion(
+        "Temasın sınırı",
+        "Düşman iki grup sadece aynı salona konuluyor; ortak amaç yok, kaygı yüksek ve statüler eşit değil. Temas düşmanlığı azaltmıyor. Neden?",
+        [
+          "Her temas değil, uygun koşullu temas önyargıyı azaltır.",
+          "Temas hiçbir koşulda işe yaramaz.",
+          "Temas için iş birliği zararlıdır.",
+          "Statü farkı temasın etkisini artırır.",
+        ],
+        0,
+        "Olumlu temas için eşit statü, iş birliği, destek ve kişisel etkileşim gibi koşullar önemlidir."
+      ),
+      makeQuestion(
+        "Arkadaşlık genellemesi",
+        "Bir kişi dış gruptan biriyle yakın arkadaş oluyor; arkadaşının grup kimliğini de fark ettiği için olumlu tutumu o grubun geneline yayılıyor. Temas kuramı açısından hangi şart önemlidir?",
+        [
+          "Arkadaşlığın grup üyeliğiyle birlikte algılanması",
+          "Grup kimliğinin tamamen inkar edilmesi",
+          "Temasın yalnızca rekabet içinde olması",
+          "Kişisel temasın hiç olmaması",
+        ],
+        0,
+        "Olumlu temasın genellenmesi için arkadaş hem birey olarak sevilmeli hem de dış grubu temsil ettiği fark edilmelidir."
+      ),
+      makeQuestion(
+        "Ortak dış tehdit",
+        "Bir doğal afet sırasında farklı sosyal gruplar birlikte hayatta kalmaya çalışıyor ve geçici olarak daha güçlü 'biz' duygusu geliştiriyor. Bu hangi süreçtir?",
+        [
+          "Ortak dış tehdidin bağlılık oluşturması",
+          "Sosyal kaytarma",
+          "Kurbanı suçlama",
+          "Fazladan gerekçelendirme",
+        ],
+        0,
+        "Ortak tehdit, grup üyelerini ve bazen daha geniş toplulukları birleştirebilir."
+      ),
+      makeQuestion(
+        "Başarısız işbirliği",
+        "Düşman iki grup ortak hedefte birlikte çalışıyor ama başarısızlığı birbirine yüklüyor. Sonuçta düşmanlık daha da artıyor. Bu hangi uyarıdır?",
+        [
+          "İşbirliğinin başarılı olması ve başarısızlığın tek tarafa yüklenmemesi önemlidir.",
+          "Her işbirliği otomatik barış getirir.",
+          "Üstün amaçlar başarısızlıkta bile düşmanlığı azaltır.",
+          "Temasın sonucu başarısızlıktan etkilenmez.",
+        ],
+        0,
+        "Slaytlarda başarısız işbirliğinin, taraflar başarısızlığı birbirine yüklerse çatışmayı kötüleştirebileceği belirtilir."
+      ),
+      makeQuestion(
+        "Arabuluculuk",
+        "Bir arabulucu taraflara taviz verdiklerinde zayıf görünmeyecekleri bir çerçeve sunuyor ve çıkarlarını açıklatıyor. Temel işlev hangisidir?",
+        [
+          "Kazan-kaybet algısını kazan-kazan arayışına çevirmek",
+          "Tarafları daha uç pozisyona itmek",
+          "İletişimi kesmek",
+          "Sorumluluğu dağıtmak",
+        ],
+        0,
+        "Arabuluculuk, iletişimi yapılandırıp tarafların çıkarlarını anlamasını ve bütünleştirici çözümler bulmasını kolaylaştırır."
+      ),
+      makeQuestion(
+        "Son teklif tahkimi",
+        "İki taraf aşırı taleplerle tahkimciyi etkilemeye çalışıyor. Sistem değiştirilip hakem yalnızca iki son tekliften birini seçecek deniyor. Bu neden makul teklifleri artırır?",
+        [
+          "Aşırı teklifin tümüyle kaybetme riskini yükseltir.",
+          "Tarafları daha aşırı olmaya ödüllendirir.",
+          "Hakemin iki teklifi birleştirmesini sağlar.",
+          "İletişimi gereksiz hale getirir.",
+        ],
+        0,
+        "Son teklif tahkimi tarafları makul teklif vermeye iter; çünkü aşırı teklif tamamen reddedilebilir."
+      ),
+    ],
+  },
+  {
+    id: "karma-zor",
+    title: "Test 10: Zor Karma Prova",
+    subtitle: "Kavramları birbirinden ayırmaya zorlayan final denemesi",
+    duration: 35,
+    questions: [
+      makeQuestion(
+        "Kavram ayrımı",
+        "Bir kişi 'yaşlılar teknolojiden anlamaz' diye düşünüyor, yaşlı çalışanlara karşı soğuk hissediyor ve onları projeye almıyor. Bu sırayla hangi üçlüdür?",
+        [
+          "Kalıpyargı, önyargı, ayrımcılık",
+          "Önyargı, ayrımcılık, kalıpyargı",
+          "Ayrımcılık, kalıpyargı, önyargı",
+          "Kalıpyargı, sosyal kaytarma, GRIT",
+        ],
+        0,
+        "Kalıpyargı bilişsel genelleme, önyargı olumsuz değerlendirme, ayrımcılık davranışsal dışlamadır."
+      ),
+      makeQuestion(
+        "Kalıpyargı tehdidi",
+        "Bir öğrenci sınavdan önce grubunun bu alanda başarısız olduğu imasının yapıldığını duyuyor ve performansı düşüyor. Bu sonuç hangi kavrama uygundur?",
+        [
+          "Kalıpyargı tehdidi",
+          "Eşleşme olgusu",
+          "GRIT",
+          "Akraba koruma",
+        ],
+        0,
+        "Kalıpyargı tehdidi, kişinin grubu hakkındaki olumsuz kalıpyargının performans durumunda baskı yaratmasıdır."
+      ),
+      makeQuestion(
+        "Adil dünya paradoksu",
+        "Bir kişi masum kurbanı tazmin edebiliyorsa yardım ediyor; tazmin edemiyorsa kurbanın hatalarını aramaya başlıyor. Bu örüntü neyi gösterir?",
+        [
+          "Adalet gerçek yollarla sağlanamazsa psikolojik savunma devreye girebilir.",
+          "Adil dünya inancı her zaman yardımı azaltır.",
+          "Kurbanı suçlama sadece önyargıyla ilgilidir.",
+          "Tazmin imkanı kurban algısını etkilemez.",
+        ],
+        0,
+        "Adil dünya inancı tehdit edildiğinde kişi adaleti gerçekçi olarak onaramazsa kurbanı suçlama gibi bilişsel savunmalara yönelebilir."
+      ),
+      makeQuestion(
+        "Kişisel kaynak",
+        "Kişisel adil dünya inancı yüksek biri, günlük haksızlıklarla baş ederken daha az çaresiz hissediyor ve genel iyi oluşu daha yüksek. Bu hangi hipoteze uygundur?",
+        [
+          "Kişisel kaynak hipotezi",
+          "Sadece tampon hipotezi",
+          "Sosyal kaytarma hipotezi",
+          "Grupdüşün hipotezi",
+        ],
+        0,
+        "Kaynak hipotezi, adil dünya inancının günlük olaylarla başa çıkmada genel bir kişisel kaynak gibi işlemesini anlatır."
+      ),
+      makeQuestion(
+        "Risk algısı",
+        "Adil dünya inancı güçlü bir kişi 'iyi bir insan olduğum için soygun gibi dış riskler bana daha az olur' diye düşünüyor. Bu hangi etkiyle uyumludur?",
+        [
+          "Adil dünya inancının dış risklerde iyimser tampon etkisi",
+          "Yönetici işlevin saldırganlığı azaltması",
+          "Sosyal kaytarma",
+          "Eşleşme olgusu",
+        ],
+        0,
+        "Slaytlarda adil dünya inancının özellikle başkaları veya kader tarafından kontrol edilen dış risklerde iyimserlik sağlayabileceği belirtilir."
+      ),
+      makeQuestion(
+        "Yardım ve adil dünya",
+        "Adil dünya inancı güçlü biri, iç grup üyesi ve masum görülen mağdura yardım ediyor; ama 'kendi suçu' dediği mağdura yardım etmiyor. Hangi iki süreç kesişir?",
+        [
+          "Adil dünya inancı ve yardımda sorumluluk yüklemesi",
+          "Sosyal kolaylaştırma ve sosyal kaytarma",
+          "Tutku ve bağlılık",
+          "Son teklif tahkimi ve GRIT",
+        ],
+        0,
+        "Yardım etme, mağdurun sorumluluğuna ilişkin yüklemelerden ve adil dünya savunmasından etkilenebilir."
+      ),
+      makeQuestion(
+        "Sosyal kolaylaştırma-kaytarma ayrımı",
+        "Bir yüzücü kalabalık önünde bireysel derecesini iyileştiriyor; ama ekip çalışmasında katkısı görünmeyince çabasını azaltıyor. İki süreç sırasıyla hangileridir?",
+        [
+          "Sosyal kolaylaştırma ve sosyal kaytarma",
+          "Sosyal kaytarma ve sosyal kolaylaştırma",
+          "Kimlik yitimi ve GRIT",
+          "Kendini açma ve denklik",
+        ],
+        0,
+        "İzleyici varlığı bireysel baskın tepkiyi güçlendirebilir; ortak işte bireysel katkı görünmezse kaytarma artabilir."
+      ),
+      makeQuestion(
+        "Anonimlik ve norm",
+        "Online anonim forumda kişiler daha kaba davranıyor; fakat başka bir anonim toplulukta norm yardımlaşma olduğu için insanlar daha çok destek veriyor. Kimlik yitimi için en doğru yorum hangisidir?",
+        [
+          "Kimlik yitimi mevcut grup normuna uyumu iyi ya da kötü yönde artırabilir.",
+          "Kimlik yitimi her zaman saldırganlık üretir.",
+          "Anonimlik norm etkisini tamamen yok eder.",
+          "Anonimlik sadece fiziksel kalabalıkta görülür.",
+        ],
+        0,
+        "Kimlik yitimi öz denetimi azaltıp grup normlarına uyumu güçlendirebilir; normun içeriği önemlidir."
+      ),
+      makeQuestion(
+        "Çekim ve yardım kesişimi",
+        "Bir erkek, çekici bulduğu yabancıya yardım etmeye daha istekli oluyor; yardımın arkasında özgecilik kadar iyi görünme ve yakınlaşma motivasyonu da var. Hangi yorum en dengelidir?",
+        [
+          "Yardım davranışı dışsal ödül ve çekim motivasyonlarıyla karışabilir.",
+          "Çekicilik yardım davranışını asla etkilemez.",
+          "Yardım yalnızca samimi özgeciliktir.",
+          "Çekim yalnızca evlilik doyumunu etkiler.",
+        ],
+        0,
+        "Yardım davranışı bazen onay, statü veya çekici kişiye yakınlaşma gibi dışsal ödüllerle de güdülenebilir."
+      ),
+      makeQuestion(
+        "Duygu ve yardım ayrımı",
+        "Mutlu kişi yardım ediyor; suçlu kişi de yardım ediyor. Ama yoğun yas yaşayan kişi kendine dönük olduğu için yardım etmiyor. Buradan hangi sonuç çıkar?",
+        [
+          "Duygu durumunun yardıma etkisi duygunun türüne ve odaklanmaya bağlıdır.",
+          "Tüm olumsuz duygular yardımı artırır.",
+          "Sadece olumlu duygu yardım doğurur.",
+          "Duygular yardım davranışını etkilemez.",
+        ],
+        0,
+        "İyi ruh hali ve suçluluk yardımı artırabilir; derin keder gibi kendine odaklı durumlar yardımı sınırlayabilir."
+      ),
+      makeQuestion(
+        "Yakınlık ve çatışma",
+        "Komşular sık karşılaştıkları için arkadaş olabilir; ama gürültü ve ortak alan sorunları nedeniyle düşman da olabilirler. Yakınlık için en doğru ifade hangisidir?",
+        [
+          "Yakınlık etkileşim fırsatı yaratır; çoğu zaman hoşlanmayı, bazen çatışmayı artırabilir.",
+          "Yakınlık yalnızca romantik aşk yaratır.",
+          "Yakınlık daima düşmanlık üretir.",
+          "Yakınlık sosyal psikolojide önemsizdir.",
+        ],
+        0,
+        "Yakınlık beğenmeyi güçlü biçimde yordar, fakat sık temas aynı zamanda çatışma fırsatı da yaratabilir."
+      ),
+      makeQuestion(
+        "Benzerlik ve önyargı",
+        "Bir kişi başka ırktan ama değerleri kendisine çok benzeyen biriyle çalışmayı, kendi ırkından ama değerleri zıt biriyle çalışmaya tercih ediyor. Bu neyi gösterir?",
+        [
+          "Algılanan değer benzerliği grup sınırlarını aşan çekim yaratabilir.",
+          "Irk kategorisi her zaman değer benzerliğinden güçlüdür.",
+          "Benzerlik yalnızca aynı grup içinde işler.",
+          "Değerler kişilerarası çekimde rol oynamaz.",
+        ],
+        0,
+        "Slaytlarda düşünce benzerliğinin ırksal farklılıkları aşarak hoşlanmayı artırabileceği örneklenir."
+      ),
+      makeQuestion(
+        "Temas sıralaması",
+        "Bir program önce farklı grupları birey olarak tanıştırıyor, sonra grup kimliklerini kabul ettiriyor, en sonunda ortak kimliği güçlendiriyor. Bu yaklaşım hangi öneriye uyar?",
+        [
+          "Çeşitliliği önce küçümseyip sonra kabul edip aşmak",
+          "Grup kimliğini baştan düşmanlaştırmak",
+          "Teması yalnızca rekabete dayandırmak",
+          "Ortak kimliği tamamen yasaklamak",
+        ],
+        0,
+        "Temas slaytlarında önyargıyı azaltmak için grup çeşitliliğini önce kişisel ilişkiyle yumuşatıp sonra kabul ederek aşma fikri anlatılır."
+      ),
+      makeQuestion(
+        "Uzlaşma stratejisi ayrımı",
+        "Bir taraf koşulsuz teslim olmuyor; küçük uzlaşmacı adımları ilan edip uyguluyor, karşılık bekliyor ve sömürüye ölçülü karşılık veriyor. Bu neden sadece 'yumuşama' değildir?",
+        [
+          "Çünkü GRIT hem uzlaşmacı hem de sömürüyü caydırıcıdır.",
+          "Çünkü GRIT tüm tavizleri gizli yapar.",
+          "Çünkü GRIT iletişimi keser.",
+          "Çünkü GRIT karşılıklılığı reddeder.",
+        ],
+        0,
+        "GRIT uzlaşmacı niyet ve karşılıklılığı içerirken, istismara açık koşulsuz teslimiyeti savunmaz."
+      ),
+      makeQuestion(
+        "Saldırganlık ve çatışma",
+        "Bir taraf karşı tarafın cezalandırmasını savunma değil saldırı olarak algılıyor ve daha sert misilleme yapıyor. Bu döngü hangi çatışma ilkesine uyar?",
+        [
+          "Misilleme algısı çatışmayı tırmandırabilir.",
+          "Ceza her zaman iş birliği doğurur.",
+          "Karşı tarafın algısı çatışmada önemsizdir.",
+          "Saldırganlık sadece bireysel öfkeyle ilgilidir.",
+        ],
+        0,
+        "Çatışmalarda taraflar kendi cezalarını savunma, karşı tarafınkini saldırı gibi görerek tırmanma döngüsüne girebilir."
+      ),
+      makeQuestion(
+        "Medya ve duyarsızlaşma ayrımı",
+        "Bir genç şiddet sahnesine artık fizyolojik tepki vermiyor; bu, şiddeti onayladığını açıkça söylemesinden farklı bir bulgu. Hangi kavram daha doğru?",
+        [
+          "Duyarsızlaşma",
+          "Kalıpyargı tehdidi",
+          "Fikir birliği yanılgısı",
+          "Denklik",
+        ],
+        0,
+        "Duyarsızlaşma, şiddete verilen duygusal/fizyolojik tepkinin azalmasıdır; bilinçli onaydan farklıdır."
+      ),
+      makeQuestion(
+        "Gelişim ve etiketleme",
+        "Okul öncesi dönemde kısa süreli fiziksel saldırganlık görülen bir çocuğa hemen 'kalıcı suçlu' etiketi yapıştırılıyor. Slaytlara göre en doğru uyarı hangisidir?",
+        [
+          "Bazı saldırganlık yaşa göre normatif olabilir; kalıcılık ve risk örüntüsü izlenmelidir.",
+          "Her okul öncesi saldırganlık yetişkin suçunu kesin belirler.",
+          "Saldırganlık çocuklukta hiç görülmez.",
+          "Erken davranışların gelişimsel anlamı yoktur.",
+        ],
+        0,
+        "Saldırganlık çocuklukta belirli ölçüde normatif olabilir; sorun yüksek, kalıcı ve çoklu risklerle birlikte görüldüğünde büyür."
+      ),
+      makeQuestion(
+        "Bağlanma ve yardım",
+        "Güvenli bağlanan biri, yakınlarının acısına duyarlı ama ilişkide boğulma korkusu yaşamadan destek verebiliyor. Hangi genel sonuç uygundur?",
+        [
+          "Güvenli bağlanma empati ve istikrarlı yakınlığı destekleyebilir.",
+          "Güvenli bağlanma yardım etmeyi engeller.",
+          "Güvenli bağlanma kıskançlığı artırır.",
+          "Bağlanma yardım davranışıyla hiçbir biçimde kesişmez.",
+        ],
+        0,
+        "Güvenli bağlanma başkalarına güven, yakınlık ve empatiyle ilişkilendirilebilir."
+      ),
+      makeQuestion(
+        "Sınav tipi ayırt etme",
+        "Bir soru 'Aşağıdakilerden hangisi sosyal kaytarma örneğidir?' diye soruyor. En iyi seçenek hangisi olur?",
+        [
+          "Grup projesinde katkısı görünmeyen öğrencinin daha az çalışması",
+          "Seyirci önünde iyi öğrenilmiş şiiri daha akıcı okuma",
+          "Karşı tarafı kötü niyetli görüp aynı kusurları atfetme",
+          "Yabancıya kişisel rica ile yardım isteme",
+        ],
+        0,
+        "Sosyal kaytarma, ortak işte bireysel katkı görünmediğinde çabanın azalmasıdır."
+      ),
+      makeQuestion(
+        "Final bütünleştirme",
+        "Bir sınıfta şiddet içerikli medya, saldırgan akran normu, düşük öz denetim ve düşmanca atıf birlikte görülüyor. En bilimsel sonuç hangisidir?",
+        [
+          "Tek neden aramak yerine çoklu risklerin birleşik etkisi değerlendirilmelidir.",
+          "Sadece medya tüm davranışı açıklar.",
+          "Sadece genetik tüm davranışı açıklar.",
+          "Saldırganlık sosyal bağlamdan bağımsızdır.",
+        ],
+        0,
+        "Dersin genel çizgisi sosyal davranışları tek nedene indirgemeden çoklu etkenlerle açıklamaktır."
+      ),
+    ],
+  },
 ];
 
 const letters = ["A", "B", "C", "D"];
