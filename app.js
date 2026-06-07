@@ -2489,6 +2489,244 @@ const exams = [
   },
 ];
 
+const concepts = [
+  {
+    term: "Sosyal kolaylaştırma",
+    explanation:
+      "Başkalarının varlığı baskın tepkiyi güçlendirir; iyi öğrenilmiş görevlerde performansı artırabilir, zor görevlerde düşürebilir.",
+  },
+  {
+    term: "Sosyal kaytarma",
+    explanation:
+      "İnsanların ortak hedef için çalışırken, bireysel katkıları görünmediğinde daha az çaba göstermesidir.",
+  },
+  {
+    term: "Kimlik yitimi",
+    explanation:
+      "Kalabalık, anonimlik ve uyarılma içinde öz farkındalık ile değerlendirilme kaygısının azalmasıdır.",
+  },
+  {
+    term: "Grup kutuplaşması",
+    explanation:
+      "Grup tartışmasının, üyelerin başlangıçtaki eğilimini daha uç ve güçlü hale getirmesidir.",
+  },
+  {
+    term: "Grupdüşün",
+    explanation:
+      "Sargın gruplarda uyum arayışının eleştirel değerlendirmeyi ve alternatifleri bastırmasıdır.",
+  },
+  {
+    term: "Azınlık etkisi",
+    explanation:
+      "Tutarlı, özgüvenli ve kararlı bir azınlığın çoğunluğu yeniden düşünmeye zorlayabilmesidir.",
+  },
+  {
+    term: "Kalıpyargı",
+    explanation:
+      "Bir sosyal grubun üyeleri hakkında aşırı genellenmiş bilişsel beklenti veya inançtır.",
+  },
+  {
+    term: "Önyargı",
+    explanation:
+      "Bir gruba veya grup üyesine yönelik çoğunlukla olumsuz değerlendirme ve tutum eğilimidir.",
+  },
+  {
+    term: "Ayrımcılık",
+    explanation:
+      "Bir kişiye grup üyeliği nedeniyle davranışsal olarak farklı, haksız veya dışlayıcı muamele edilmesidir.",
+  },
+  {
+    term: "Kalıpyargı tehdidi",
+    explanation:
+      "Kişinin grubu hakkındaki olumsuz kalıpyargıyı doğrulama kaygısı nedeniyle performansının düşmesidir.",
+  },
+  {
+    term: "Adil dünya inancı",
+    explanation:
+      "İnsanların herkesin hak ettiğini aldığı ve aldığını hak ettiği bir dünyaya inanma eğilimidir.",
+  },
+  {
+    term: "Kurbanı suçlama",
+    explanation:
+      "Adaletsizliği anlamlandırmak için mağdurun başına gelenlerden mağdurun kendisini sorumlu tutmaktır.",
+  },
+  {
+    term: "Düşmanca atıf önyargısı",
+    explanation:
+      "Belirsiz davranışları bile karşı tarafın düşmanca niyetiyle açıklama eğilimidir.",
+  },
+  {
+    term: "Uyarılma aktarımı",
+    explanation:
+      "Bir olaydan kalan fizyolojik uyarılmanın sonraki olaya yanlış atfedilerek tepkiyi güçlendirmesidir.",
+  },
+  {
+    term: "Genel Saldırganlık Modeli",
+    explanation:
+      "Kişisel ve durumsal girdilerin düşünce, duygu ve uyarılma üzerinden saldırgan kararı şekillendirdiğini söyler.",
+  },
+  {
+    term: "Reaktif saldırganlık",
+    explanation:
+      "Algılanan tehdit veya kışkırtmaya verilen ani, öfkeli ve savunmacı saldırgan tepkidir.",
+  },
+  {
+    term: "Proaktif saldırganlık",
+    explanation:
+      "Statü, kazanç veya kontrol gibi bir hedefe ulaşmak için planlı biçimde kullanılan araçsal saldırganlıktır.",
+  },
+  {
+    term: "Duyarsızlaşma",
+    explanation:
+      "Şiddete tekrar tekrar maruz kalma sonucunda şiddete verilen duygusal veya fizyolojik tepkinin azalmasıdır.",
+  },
+  {
+    term: "Zorlayıcı döngü",
+    explanation:
+      "Sert ebeveynlik ile çocuğun karşıt davranışının birbirini besleyerek saldırganlığı pekiştirmesidir.",
+  },
+  {
+    term: "Akran reddi",
+    explanation:
+      "Saldırgan çocuğun akranları tarafından dışlanması ve bu dışlanmanın saldırgan çevrelere yönelimi artırmasıdır.",
+  },
+  {
+    term: "Yakınlık",
+    explanation:
+      "İnsanların yollarının sık kesişmesi ve etkileşim fırsatı bulması, hoşlanmayı güçlü biçimde artırabilir.",
+  },
+  {
+    term: "Salt maruz kalma",
+    explanation:
+      "Bir uyarıcıya tekrar tekrar maruz kalmanın, o uyarıcıyı daha tanıdık ve olumlu hale getirmesidir.",
+  },
+  {
+    term: "Benzerlik",
+    explanation:
+      "Tutum, değer, yaşam tarzı veya davranış benzerliği kişilerarası çekimi ve ilişki doyumunu artırır.",
+  },
+  {
+    term: "Eşleşme olgusu",
+    explanation:
+      "İnsanların çekicilik, statü ve diğer değerler bakımından kendilerine denk kişilere yönelme eğilimidir.",
+  },
+  {
+    term: "Fiziksel çekicilik kalıpyargısı",
+    explanation:
+      "Çekici kişilere daha zeki, başarılı, sosyal ve olumlu özellikler atfetme eğilimidir.",
+  },
+  {
+    term: "Tutkulu aşk",
+    explanation:
+      "Yoğun özlem, fizyolojik uyarılma ve romantik çekimin baskın olduğu aşk biçimidir.",
+  },
+  {
+    term: "Arkadaşça aşk",
+    explanation:
+      "Tutkunun zayıf, yakınlık ve bağlılığın güçlü olduğu sıcak, güvenli ve uzun soluklu sevgidir.",
+  },
+  {
+    term: "Güvenli bağlanma",
+    explanation:
+      "Kişinin hem kendine hem başkalarına olumlu bakarak yakınlıktan ve bağımlılıktan aşırı kaygı duymamasıdır.",
+  },
+  {
+    term: "Saplantılı bağlanma",
+    explanation:
+      "Kişinin kendini değersiz görüp başkalarından yoğun kabul beklediği, kaygılı ve sahiplenici bağlanmadır.",
+  },
+  {
+    term: "Kendini açma",
+    explanation:
+      "Kişinin özel duygu, düşünce ve yaşantılarını uygun düzeyde paylaşması; karşılıklı açılma yakınlığı artırır.",
+  },
+  {
+    term: "Denklik",
+    explanation:
+      "İlişkide elde edilenlerin, ilişkiye katılan emek ve kaynaklarla orantılı algılanmasıdır.",
+  },
+  {
+    term: "Seyirci etkisi",
+    explanation:
+      "Acil durumda başka izleyicilerin varlığı, fark etme, yorumlama ve sorumluluk alma olasılığını düşürebilir.",
+  },
+  {
+    term: "Çoğulcu cehalet",
+    explanation:
+      "Belirsiz durumda herkesin diğerlerinin sakinliğini durumun ciddi olmadığına kanıt sanmasıdır.",
+  },
+  {
+    term: "Sorumluluğun dağılması",
+    explanation:
+      "Kalabalıkta her bireyin yardım etme sorumluluğunu başkalarının da üstleneceğini düşünerek daha az hissetmesidir.",
+  },
+  {
+    term: "Karşılıklılık normu",
+    explanation:
+      "Bize yardım eden kişiye yardım etme ve yapılan iyiliğe karşılık verme sosyal beklentisidir.",
+  },
+  {
+    term: "Toplumsal sorumluluk normu",
+    explanation:
+      "Karşılık beklemeden, yardıma ihtiyacı olan ve kendi kusuruyla bu durumda olmayan kişilere yardım edilmesi gerektiği inancıdır.",
+  },
+  {
+    term: "Empati-özgecilik",
+    explanation:
+      "Empatinin, kişinin kendi ödülünden çok başkasının iyiliğine odaklanan yardım davranışı doğurabileceği görüşüdür.",
+  },
+  {
+    term: "Toplumsal tuzak",
+    explanation:
+      "Tarafların kendi çıkarlarını izlerken uzun vadede herkes için zararlı ortak sonuç üretmesidir.",
+  },
+  {
+    term: "Tutsak ikilemi",
+    explanation:
+      "İki tarafın güvenmediği için iş birliği yapmadığı ve ikisinin de iş birliğinden daha kötü sonuç aldığı sosyal ikilemdir.",
+  },
+  {
+    term: "Kamusal mülkiyet trajedisi",
+    explanation:
+      "Paylaşılan sınırlı kaynağın herkes tarafından fazla tüketilmesiyle kaynağın çökmesidir.",
+  },
+  {
+    term: "Ayna görüntüsü algıları",
+    explanation:
+      "Çatışan tarafların kendini ahlaklı ve savunmada, karşı tarafı kötü niyetli ve saldırgan görmesidir.",
+  },
+  {
+    term: "Eşit statülü temas",
+    explanation:
+      "Önyargıyı azaltmak için gruplar arası temasın eşit konumda, desteklenen ve işbirlikçi olması gerektiğini anlatır.",
+  },
+  {
+    term: "Üstün amaç",
+    explanation:
+      "Çatışan grupların ancak birlikte çalışarak ulaşabileceği, iki tarafı da kapsayan ortak hedeftir.",
+  },
+  {
+    term: "Jigsaw sınıf",
+    explanation:
+      "Her öğrencinin bilginin bir parçasında uzmanlaşıp diğerlerine öğretmek zorunda olduğu işbirlikçi öğrenme tekniğidir.",
+  },
+  {
+    term: "GRIT",
+    explanation:
+      "Gerginliği azaltmak için küçük, ilan edilmiş, doğrulanabilir ve karşılıklılık davet eden uzlaşmacı adımlar stratejisidir.",
+  },
+  {
+    term: "Arabuluculuk",
+    explanation:
+      "Üçüncü tarafın, tarafların çıkarlarını açıklamasına ve kazan-kazan çözüm bulmasına yardım etmesidir.",
+  },
+  {
+    term: "Son teklif tahkimi",
+    explanation:
+      "Hakemin iki tarafın son teklifinden yalnızca birini seçtiği, aşırı talepleri azaltan tahkim türüdür.",
+  },
+];
+
 const letters = ["A", "B", "C", "D"];
 const app = document.querySelector("#app");
 const topbarStatus = document.querySelector("#topbarStatus");
@@ -2499,9 +2737,14 @@ let sessionQuestions = [];
 let currentIndex = 0;
 let answers = [];
 let flagged = [];
+let revealed = [];
+let feedbackMode = "exam";
 let remainingSeconds = 0;
 let timerId = null;
 let lastResult = null;
+let conceptIndex = 0;
+let activeGame = null;
+let conceptTouchStartX = null;
 
 const storageKey = "sp2-exam-best-scores";
 
@@ -2541,6 +2784,19 @@ function shuffleQuestion(question) {
   };
 }
 
+function shuffleArray(items) {
+  const copy = [...items];
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]];
+  }
+  return copy;
+}
+
+function sampleConcepts(count, excludeTerm = null) {
+  return shuffleArray(concepts.filter((concept) => concept.term !== excludeTerm)).slice(0, count);
+}
+
 function formatTime(totalSeconds) {
   const minutes = Math.floor(Math.max(0, totalSeconds) / 60);
   const seconds = Math.max(0, totalSeconds) % 60;
@@ -2573,12 +2829,14 @@ function startTimer() {
 function renderHome() {
   stopTimer();
   activeExam = null;
+  activeGame = null;
   lastResult = null;
   setStatus("Hazırlık ekranı");
   const scores = getBestScores();
   const totalQuestions = exams.reduce((sum, exam) => sum + exam.questions.length, 0);
   const bestValues = Object.values(scores);
   const bestText = bestValues.length ? `%${Math.max(...bestValues)}` : "Yok";
+  const concept = concepts[conceptIndex];
 
   app.innerHTML = `
     <section class="dashboard">
@@ -2586,12 +2844,65 @@ function renderHome() {
         <div>
           <p class="eyebrow">EPS204 / Sosyal Psikoloji II</p>
           <h1>Slayt temelli sınav provası</h1>
-          <p class="lead">Dört ayrı test, vaka ağırlıklı çoktan seçmeli sorular ve sınav bitiminde kısa gerekçeli değerlendirme.</p>
+          <p class="lead">Önce kavram kartlarını oku, sonra oyunlarla kavramları kilitle ve istersen 10 denemelik sınav moduna geç.</p>
         </div>
         <div class="summary-rack" aria-label="Sınav özeti">
           <div class="summary-pill"><strong>${exams.length}</strong><span>test</span></div>
           <div class="summary-pill"><strong>${totalQuestions}</strong><span>soru</span></div>
           <div class="summary-pill"><strong>${bestText}</strong><span>en iyi</span></div>
+        </div>
+      </div>
+      <section class="concept-zone" aria-label="Kavram kartları">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Kavram Bölümü</p>
+            <h2>Kartları oku, sonra oyunla pekiştir</h2>
+          </div>
+          <span class="chip">${concepts.length} kavram</span>
+        </div>
+        <div class="concept-layout">
+          <div class="concept-reader">
+            <div class="concept-stage">
+              <button class="round-nav" type="button" data-concept-prev aria-label="Önceki kavram">‹</button>
+              <article class="concept-card" data-concept-card>
+                <span class="chip">${conceptIndex + 1}/${concepts.length}</span>
+                <h3>${escapeHtml(concept.term)}</h3>
+                <p>${escapeHtml(concept.explanation)}</p>
+              </article>
+              <button class="round-nav" type="button" data-concept-next aria-label="Sonraki kavram">›</button>
+            </div>
+            <div class="concept-actions">
+              <button class="btn ghost" type="button" data-concept-prev>Önceki</button>
+              <button class="btn" type="button" data-concept-random>Rastgele kart</button>
+              <button class="btn primary" type="button" data-concept-next>Sonraki</button>
+            </div>
+          </div>
+          <div class="concept-games">
+            <article>
+              <span class="chip">Oyun 1</span>
+              <h3>Eşleştirme</h3>
+              <p>Kavramı doğru açıklamayla eşleştir.</p>
+              <button class="btn primary" type="button" data-game-start="match">Başla</button>
+            </article>
+            <article>
+              <span class="chip">Oyun 2</span>
+              <h3>Boşluk doldurma</h3>
+              <p>Açıklamadaki boşluğa uygun kavramı seç.</p>
+              <button class="btn primary" type="button" data-game-start="blank">Başla</button>
+            </article>
+            <article>
+              <span class="chip">Oyun 3</span>
+              <h3>Doğru / Yanlış</h3>
+              <p>Kavram ve açıklama eşleşmesi doğru mu karar ver.</p>
+              <button class="btn primary" type="button" data-game-start="tf">Başla</button>
+            </article>
+          </div>
+        </div>
+      </section>
+      <div class="section-head compact">
+        <div>
+          <p class="eyebrow">Deneme Sınavları</p>
+          <h2>10 testlik sınav seti</h2>
         </div>
       </div>
       <div class="exam-grid">
@@ -2610,7 +2921,8 @@ function renderHome() {
                   <p>${escapeHtml(exam.subtitle)}</p>
                 </div>
                 <div class="actions">
-                  <button class="btn primary" type="button" data-start="${exam.id}">Başla</button>
+                  <button class="btn primary" type="button" data-start="${exam.id}" data-mode="study">Çalışma modu</button>
+                  <button class="btn ghost" type="button" data-start="${exam.id}" data-mode="exam">Sınav modu</button>
                 </div>
               </article>
             `;
@@ -2621,16 +2933,232 @@ function renderHome() {
   `;
 }
 
-function startExam(examId) {
+function renderGameShell(content) {
+  app.innerHTML = `
+    <section class="game-screen">
+      <div class="game-top">
+        <div>
+          <p class="eyebrow">Kavram Oyunu</p>
+          <h1>${escapeHtml(activeGame.title)}</h1>
+          <p class="lead">${escapeHtml(activeGame.subtitle)}</p>
+        </div>
+        <div class="result-meta">
+          <span class="chip">Skor ${activeGame.score}</span>
+          <span class="chip">${activeGame.roundText}</span>
+        </div>
+      </div>
+      ${content}
+      <div class="actions">
+        <button class="btn ghost" type="button" data-game-home>Kavramlara dön</button>
+        <button class="btn" type="button" data-game-restart>Yenile</button>
+      </div>
+    </section>
+  `;
+}
+
+function startConceptGame(type) {
+  stopTimer();
+  activeExam = null;
+  lastResult = null;
+  if (type === "match") {
+    const pairs = sampleConcepts(6);
+    activeGame = {
+      type,
+      title: "Eşleştirme",
+      subtitle: "Soldan kavramı, sağdan doğru açıklamayı seç.",
+      score: 0,
+      roundText: "6 eşleşme",
+      termOrder: shuffleArray(pairs),
+      definitionOrder: shuffleArray(pairs),
+      selectedTerm: null,
+      matchedTerms: [],
+      message: "Önce bir kavram seç.",
+      messageType: "idle",
+    };
+  }
+  if (type === "blank") {
+    activeGame = {
+      type,
+      title: "Boşluk doldurma",
+      subtitle: "Açıklamayı oku, doğru kavramı seç.",
+      score: 0,
+      round: 0,
+      selected: null,
+      rounds: sampleConcepts(10).map((concept) => ({
+        concept,
+        options: shuffleArray([concept, ...sampleConcepts(3, concept.term)]),
+      })),
+    };
+    activeGame.roundText = `1/${activeGame.rounds.length}`;
+  }
+  if (type === "tf") {
+    activeGame = {
+      type,
+      title: "Doğru / Yanlış",
+      subtitle: "Kavram ile açıklama gerçekten eşleşiyor mu?",
+      score: 0,
+      round: 0,
+      selected: null,
+      rounds: sampleConcepts(10).map((concept, index) => {
+        const shouldBeTrue = index % 2 === 0;
+        const shownConcept = shouldBeTrue ? concept : sampleConcepts(1, concept.term)[0];
+        return {
+          concept: shownConcept,
+          explanationConcept: concept,
+          correct: shouldBeTrue,
+        };
+      }),
+    };
+    activeGame.roundText = `1/${activeGame.rounds.length}`;
+  }
+  setStatus(`Kavram oyunu / ${activeGame.title}`);
+  renderConceptGame();
+}
+
+function renderConceptGame() {
+  if (!activeGame) return;
+  if (activeGame.type === "match") {
+    renderMatchingGame();
+    return;
+  }
+  if (activeGame.type === "blank") {
+    renderBlankGame();
+    return;
+  }
+  renderTrueFalseGame();
+}
+
+function renderMatchingGame() {
+  const complete = activeGame.matchedTerms.length === activeGame.termOrder.length;
+  const content = `
+    <div class="match-board">
+      <div class="match-column">
+        <h2>Kavramlar</h2>
+        ${activeGame.termOrder
+          .map(
+            (concept, index) => `
+              <button class="match-item ${activeGame.selectedTerm === index ? "selected" : ""} ${activeGame.matchedTerms.includes(concept.term) ? "matched" : ""}" type="button" data-match-term="${index}" ${activeGame.matchedTerms.includes(concept.term) ? "disabled" : ""}>
+                ${escapeHtml(concept.term)}
+              </button>
+            `
+          )
+          .join("")}
+      </div>
+      <div class="match-column">
+        <h2>Açıklamalar</h2>
+        ${activeGame.definitionOrder
+          .map(
+            (concept, index) => `
+              <button class="match-item definition ${activeGame.matchedTerms.includes(concept.term) ? "matched" : ""}" type="button" data-match-def="${index}" ${activeGame.matchedTerms.includes(concept.term) ? "disabled" : ""}>
+                ${escapeHtml(concept.explanation)}
+              </button>
+            `
+          )
+          .join("")}
+      </div>
+    </div>
+    <div class="game-feedback ${activeGame.messageType}">
+      ${complete ? "Bitti. Tüm kavramları eşleştirdin." : escapeHtml(activeGame.message)}
+    </div>
+  `;
+  activeGame.roundText = `${activeGame.matchedTerms.length}/${activeGame.termOrder.length}`;
+  renderGameShell(content);
+}
+
+function renderBlankGame() {
+  const round = activeGame.rounds[activeGame.round];
+  const isAnswered = activeGame.selected !== null;
+  const selectedConcept = isAnswered ? round.options[activeGame.selected] : null;
+  const correct = selectedConcept?.term === round.concept.term;
+  activeGame.roundText = `${activeGame.round + 1}/${activeGame.rounds.length}`;
+  const content = `
+    <div class="quiz-card">
+      <span class="chip">Boşluğu tamamla</span>
+      <h2>_____</h2>
+      <p>${escapeHtml(round.concept.explanation)}</p>
+    </div>
+    <div class="game-options">
+      ${round.options
+        .map(
+          (concept, index) => `
+            <button class="game-option ${isAnswered && concept.term === round.concept.term ? "correct" : ""} ${isAnswered && activeGame.selected === index && concept.term !== round.concept.term ? "wrong" : ""}" type="button" data-blank-option="${index}" ${isAnswered ? "disabled" : ""}>
+              ${escapeHtml(concept.term)}
+            </button>
+          `
+        )
+        .join("")}
+    </div>
+    ${
+      isAnswered
+        ? `<div class="game-feedback ${correct ? "correct" : "wrong"}">
+            ${correct ? "Doğru." : `Yanlış. Doğru kavram: ${escapeHtml(round.concept.term)}.`}
+          </div>
+          <button class="btn primary" type="button" data-game-next>${activeGame.round === activeGame.rounds.length - 1 ? "Sonucu bitir" : "Sonraki"}</button>`
+        : `<div class="game-feedback idle">Açıklamayı hangi kavram tamamlıyor?</div>`
+    }
+  `;
+  renderGameShell(content);
+}
+
+function renderTrueFalseGame() {
+  const round = activeGame.rounds[activeGame.round];
+  const isAnswered = activeGame.selected !== null;
+  const correct = activeGame.selected === round.correct;
+  activeGame.roundText = `${activeGame.round + 1}/${activeGame.rounds.length}`;
+  const content = `
+    <div class="quiz-card">
+      <span class="chip">Doğru mu?</span>
+      <h2>${escapeHtml(round.concept.term)}</h2>
+      <p>${escapeHtml(round.explanationConcept.explanation)}</p>
+    </div>
+    <div class="true-false-row">
+      <button class="game-option ${isAnswered && round.correct === true ? "correct" : ""} ${isAnswered && activeGame.selected === true && !round.correct ? "wrong" : ""}" type="button" data-tf-option="true" ${isAnswered ? "disabled" : ""}>Doğru</button>
+      <button class="game-option ${isAnswered && round.correct === false ? "correct" : ""} ${isAnswered && activeGame.selected === false && round.correct ? "wrong" : ""}" type="button" data-tf-option="false" ${isAnswered ? "disabled" : ""}>Yanlış</button>
+    </div>
+    ${
+      isAnswered
+        ? `<div class="game-feedback ${correct ? "correct" : "wrong"}">
+            ${correct ? "Doğru karar." : "Yanlış karar."}
+            ${round.correct ? "" : ` Bu açıklama aslında "${escapeHtml(round.explanationConcept.term)}" kavramına ait.`}
+          </div>
+          <button class="btn primary" type="button" data-game-next>${activeGame.round === activeGame.rounds.length - 1 ? "Sonucu bitir" : "Sonraki"}</button>`
+        : `<div class="game-feedback idle">Kavram ve açıklama eşleşiyor mu?</div>`
+    }
+  `;
+  renderGameShell(content);
+}
+
+function renderGameResult() {
+  const total =
+    activeGame.type === "match" ? activeGame.termOrder.length : activeGame.rounds.length;
+  renderGameShell(`
+    <div class="result-panel compact-result">
+      <div class="score-ring">
+        <div>
+          <strong>${activeGame.score}/${total}</strong>
+          <span>oyun skoru</span>
+        </div>
+      </div>
+      <div>
+        <h2>${escapeHtml(activeGame.title)} tamamlandı</h2>
+        <p class="lead">Kavramları kartlardan tekrar okuyup başka bir oyunla pekiştirebilirsin.</p>
+      </div>
+    </div>
+  `);
+}
+
+function startExam(examId, mode = "study") {
   activeExam = exams.find((exam) => exam.id === examId);
   if (!activeExam) return;
+  feedbackMode = mode;
   sessionQuestions = activeExam.questions.map(shuffleQuestion);
   currentIndex = 0;
   answers = Array(sessionQuestions.length).fill(null);
   flagged = Array(sessionQuestions.length).fill(false);
+  revealed = Array(sessionQuestions.length).fill(false);
   remainingSeconds = activeExam.duration * 60;
   lastResult = null;
-  setStatus(activeExam.title);
+  setStatus(`${activeExam.title} / ${feedbackMode === "study" ? "Çalışma modu" : "Sınav modu"}`);
   renderExam();
   startTimer();
 }
@@ -2640,6 +3168,10 @@ function renderExam() {
   const question = sessionQuestions[currentIndex];
   const answeredCount = answers.filter((answer) => answer !== null).length;
   const progress = ((currentIndex + 1) / sessionQuestions.length) * 100;
+  const isStudyMode = feedbackMode === "study";
+  const isRevealed = isStudyMode && revealed[currentIndex] && answers[currentIndex] !== null;
+  const selectedAnswer = answers[currentIndex];
+  const answeredCorrectly = selectedAnswer === question.answer;
 
   app.innerHTML = `
     <section class="exam-layout">
@@ -2647,6 +3179,7 @@ function renderExam() {
         <div class="exam-head">
           <div class="meta-row">
             <span class="chip">${escapeHtml(activeExam.title)}</span>
+            <span class="chip">${isStudyMode ? "Çalışma modu" : "Sınav modu"}</span>
             <span class="chip">${answeredCount}/${sessionQuestions.length} cevaplandı</span>
           </div>
           <div class="timer" id="timer">${formatTime(remainingSeconds)}</div>
@@ -2663,7 +3196,12 @@ function renderExam() {
           ${question.options
             .map(
               (option, index) => `
-                <button class="choice ${answers[currentIndex] === index ? "selected" : ""}" type="button" data-choice="${index}">
+                <button
+                  class="choice ${answers[currentIndex] === index ? "selected" : ""} ${isRevealed && index === question.answer ? "correct" : ""} ${isRevealed && answers[currentIndex] === index && index !== question.answer ? "wrong" : ""}"
+                  type="button"
+                  data-choice="${index}"
+                  ${isRevealed ? "disabled" : ""}
+                >
                   <span class="letter">${letters[index]}</span>
                   <span class="choice-text">${escapeHtml(option)}</span>
                 </button>
@@ -2671,6 +3209,19 @@ function renderExam() {
             )
             .join("")}
         </div>
+        ${
+          isRevealed
+            ? `
+              <div class="instant-feedback ${answeredCorrectly ? "is-correct" : "is-wrong"}">
+                <strong>${answeredCorrectly ? "Doğru." : "Yanlış."}</strong>
+                <span>Doğru cevap: ${letters[question.answer]} - ${escapeHtml(question.options[question.answer])}</span>
+                <p>${escapeHtml(question.explain)}</p>
+              </div>
+            `
+            : isStudyMode
+              ? `<div class="instant-feedback idle">Bir seçeneğe basınca doğru cevap ve açıklama burada hemen açılır.</div>`
+              : ""
+        }
         <div class="question-actions">
           <button class="btn ghost" type="button" data-prev ${currentIndex === 0 ? "disabled" : ""}>Önceki</button>
           <button class="btn ghost" type="button" data-flag>${flagged[currentIndex] ? "İşareti kaldır" : "İşaretle"}</button>
@@ -2698,7 +3249,7 @@ function renderExam() {
           <div class="side-stat"><span>Boş</span><strong>${sessionQuestions.length - answeredCount}</strong></div>
           <div class="side-stat"><span>İşaretli</span><strong>${flagged.filter(Boolean).length}</strong></div>
         </div>
-        <button class="btn danger" type="button" data-finish>Bitir</button>
+        <button class="btn danger" type="button" data-finish>${isStudyMode ? "Sonucu gör" : "Bitir"}</button>
       </aside>
     </section>
   `;
@@ -2810,15 +3361,119 @@ function renderResults() {
 }
 
 app.addEventListener("click", (event) => {
+  if (event.target.closest("[data-concept-prev]")) {
+    conceptIndex = (conceptIndex - 1 + concepts.length) % concepts.length;
+    renderHome();
+    return;
+  }
+
+  if (event.target.closest("[data-concept-next]")) {
+    conceptIndex = (conceptIndex + 1) % concepts.length;
+    renderHome();
+    return;
+  }
+
+  if (event.target.closest("[data-concept-random]")) {
+    const nextIndex = Math.floor(Math.random() * concepts.length);
+    conceptIndex = nextIndex === conceptIndex ? (nextIndex + 1) % concepts.length : nextIndex;
+    renderHome();
+    return;
+  }
+
+  const gameStart = event.target.closest("[data-game-start]");
+  if (gameStart) {
+    startConceptGame(gameStart.dataset.gameStart);
+    return;
+  }
+
+  if (event.target.closest("[data-game-home]")) {
+    renderHome();
+    return;
+  }
+
+  if (event.target.closest("[data-game-restart]") && activeGame) {
+    startConceptGame(activeGame.type);
+    return;
+  }
+
+  const matchTerm = event.target.closest("[data-match-term]");
+  if (matchTerm && activeGame?.type === "match") {
+    const index = Number(matchTerm.dataset.matchTerm);
+    const concept = activeGame.termOrder[index];
+    if (!activeGame.matchedTerms.includes(concept.term)) {
+      activeGame.selectedTerm = index;
+      activeGame.message = `${concept.term} için açıklamayı seç.`;
+      activeGame.messageType = "idle";
+      renderConceptGame();
+    }
+    return;
+  }
+
+  const matchDef = event.target.closest("[data-match-def]");
+  if (matchDef && activeGame?.type === "match") {
+    if (activeGame.selectedTerm === null) {
+      activeGame.message = "Önce soldan bir kavram seç.";
+      activeGame.messageType = "wrong";
+      renderConceptGame();
+      return;
+    }
+    const termConcept = activeGame.termOrder[activeGame.selectedTerm];
+    const defConcept = activeGame.definitionOrder[Number(matchDef.dataset.matchDef)];
+    if (termConcept.term === defConcept.term) {
+      activeGame.matchedTerms.push(termConcept.term);
+      activeGame.score += 1;
+      activeGame.selectedTerm = null;
+      activeGame.message = "Doğru eşleşme.";
+      activeGame.messageType = "correct";
+    } else {
+      activeGame.selectedTerm = null;
+      activeGame.message = "Bu açıklama o kavrama ait değil. Bir daha dene.";
+      activeGame.messageType = "wrong";
+    }
+    renderConceptGame();
+    return;
+  }
+
+  const blankOption = event.target.closest("[data-blank-option]");
+  if (blankOption && activeGame?.type === "blank" && activeGame.selected === null) {
+    activeGame.selected = Number(blankOption.dataset.blankOption);
+    const round = activeGame.rounds[activeGame.round];
+    if (round.options[activeGame.selected].term === round.concept.term) activeGame.score += 1;
+    renderConceptGame();
+    return;
+  }
+
+  const tfOption = event.target.closest("[data-tf-option]");
+  if (tfOption && activeGame?.type === "tf" && activeGame.selected === null) {
+    activeGame.selected = tfOption.dataset.tfOption === "true";
+    const round = activeGame.rounds[activeGame.round];
+    if (activeGame.selected === round.correct) activeGame.score += 1;
+    renderConceptGame();
+    return;
+  }
+
+  if (event.target.closest("[data-game-next]") && activeGame) {
+    if (activeGame.round >= activeGame.rounds.length - 1) {
+      renderGameResult();
+      return;
+    }
+    activeGame.round += 1;
+    activeGame.selected = null;
+    renderConceptGame();
+    return;
+  }
+
   const start = event.target.closest("[data-start]");
   if (start) {
-    startExam(start.dataset.start);
+    startExam(start.dataset.start, start.dataset.mode || "study");
     return;
   }
 
   const choice = event.target.closest("[data-choice]");
   if (choice && activeExam) {
+    if (feedbackMode === "study" && revealed[currentIndex]) return;
     answers[currentIndex] = Number(choice.dataset.choice);
+    if (feedbackMode === "study") revealed[currentIndex] = true;
     renderExam();
     return;
   }
@@ -2870,5 +3525,28 @@ homeButton.addEventListener("click", () => {
   }
   renderHome();
 });
+
+app.addEventListener(
+  "touchstart",
+  (event) => {
+    if (!event.target.closest("[data-concept-card]")) return;
+    conceptTouchStartX = event.touches[0]?.clientX ?? null;
+  },
+  { passive: true }
+);
+
+app.addEventListener(
+  "touchend",
+  (event) => {
+    if (conceptTouchStartX === null || !event.target.closest("[data-concept-card]")) return;
+    const endX = event.changedTouches[0]?.clientX ?? conceptTouchStartX;
+    const delta = endX - conceptTouchStartX;
+    conceptTouchStartX = null;
+    if (Math.abs(delta) < 42) return;
+    conceptIndex = delta < 0 ? (conceptIndex + 1) % concepts.length : (conceptIndex - 1 + concepts.length) % concepts.length;
+    renderHome();
+  },
+  { passive: true }
+);
 
 renderHome();
